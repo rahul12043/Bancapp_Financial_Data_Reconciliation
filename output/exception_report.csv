@@ -1,0 +1,55 @@
+Month,Group ID,Problem,Our Transaction IDs,Bank Line IDs,Payment Reference,Amount,Difference,Days Old,What Happened,What To Do
+May 2026,MAY-G0001,Cancels out in our books,"TXNMAY00294,TXNMAY00295",,PRMAY37659807,9869.94,0.0,26,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+May 2026,MAY-G0002,Cancels out in our books,"TXNMAY00288,TXNMAY00289",,PRMAY39888974,60982.0,0.0,28,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+May 2026,MAY-G0003,Cancels out in our books,"TXNMAY00290,TXNMAY00291",,PRMAY60905625,21305.94,0.0,21,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+May 2026,MAY-G0004,Cancels out in our books,"TXNMAY00292,TXNMAY00293",,PRMAY25145751,65139.3,0.0,27,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+May 2026,MAY-G0031,Bank paid less,TXNMAY00296,BLMAY00245,PRMAY15937353,29142.95,238.92,15,Bank narration shows reference PRMAY15937353. Bank paid 238.92 less than our books.,Recover the shortfall. It is usually a bank fee.
+May 2026,MAY-G0050,Bank paid twice,,BLMAY00244,,12850.78,-12850.78,9,Reference PRMAY20770971 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0076,Bank paid twice,,BLMAY00234,,81212.55,-81212.55,16,Reference PRMAY32083803 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0106,Bank paid twice,,BLMAY00242,,17303.23,-17303.23,13,Reference PRMAY48532662 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0110,Bank paid less,TXNMAY00298,BLMAY00247,PRMAY50332555,8352.67,381.98,19,Bank narration shows reference PRMAY50332555. Bank paid 381.98 less than our books.,Recover the shortfall. It is usually a bank fee.
+May 2026,MAY-G0173,Bank paid twice,,BLMAY00238,,68780.79,-68780.79,17,Reference PRMAY72059365 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0185,Bank paid twice,,BLMAY00236,,76873.57,-76873.57,12,Reference PRMAY78501420 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0204,Bank paid less,TXNMAY00297,BLMAY00246,PRMAY87324220,36761.11,320.39,17,Bank narration shows reference PRMAY87324220. Bank paid 320.39 less than our books.,Recover the shortfall. It is usually a bank fee.
+May 2026,MAY-G0206,Bank paid twice,,BLMAY00240,,4541.21,-4541.21,24,Reference PRMAY87619624 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+May 2026,MAY-G0262,Never settled,TXNMAY00321,,PRMAY30270856,20973.69,20973.69,29,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0263,Never settled,TXNMAY00322,,PRMAY18113477,60674.78,60674.78,20,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0264,Never settled,TXNMAY00323,,PRMAY12111482,50677.13,50677.13,29,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0265,Never settled,TXNMAY00324,,PRMAY12244945,68677.76,68677.76,21,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0266,Never settled,TXNMAY00325,,PRMAY77406294,66372.15,66372.15,16,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0267,Never settled,TXNMAY00326,,PRMAY24363501,49935.52,49935.52,28,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0268,Never settled,TXNMAY00327,,PRMAY93185576,24166.62,24166.62,21,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0269,Never settled,TXNMAY00328,,PRMAY63270536,35596.64,35596.64,28,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+May 2026,MAY-G0270,Credit we cannot place,,BLMAY00248,,23293.95,-23293.95,8,This credit does not match any payment in our books.,Ask the bank whose money this is.
+May 2026,MAY-G0271,Credit we cannot place,,BLMAY00249,,9109.17,-9109.17,25,This credit does not match any payment in our books.,Ask the bank whose money this is.
+May 2026,MAY-G0272,Credit we cannot place,,BLMAY00250,,66844.58,-66844.58,26,This credit does not match any payment in our books.,Ask the bank whose money this is.
+May 2026,MAY-G0273,Credit we cannot place,,BLMAY00251,,92851.94,-92851.94,8,This credit does not match any payment in our books.,Ask the bank whose money this is.
+May 2026,MAY-G0274,Credit we cannot place,,BLMAY00252,,20281.77,-20281.77,19,This credit does not match any payment in our books.,Ask the bank whose money this is.
+June 2026,JUN-G0001,Cancels out in our books,"TXNJUN00589,TXNJUN00590",,PRJUN39765498,8243.1,0.0,16,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+June 2026,JUN-G0002,Cancels out in our books,"TXNJUN00587,TXNJUN00588",,PRJUN22225702,38790.16,0.0,23,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+June 2026,JUN-G0003,Cancels out in our books,"TXNJUN00585,TXNJUN00586",,PRJUN55424358,49893.98,0.0,10,Sale and refund on the same reference cancel out. No bank credit is due.,No action needed. Keep for the audit trail.
+June 2026,JUN-G0022,Bank paid twice,,BLJUN00490,,49760.72,-49760.72,7,Reference PRJUN10954835 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+June 2026,JUN-G0067,Bank paid twice,,BLJUN00496,,71105.39,-71105.39,22,Reference PRJUN28531242 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+June 2026,JUN-G0129,Bank paid twice,,BLJUN00492,,14915.27,-14915.27,22,Reference PRJUN58623028 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+June 2026,JUN-G0141,Bank paid twice,,BLJUN00494,,74513.95,-74513.95,8,Reference PRJUN65462544 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+June 2026,JUN-G0147,Bank paid twice,,BLJUN00488,,24365.58,-24365.58,21,Reference PRJUN67108220 was already paid in full. This credit is a repeat.,Ask the bank to take the extra credit back.
+June 2026,JUN-G0155,Bank paid less,TXNJUN00592,BLJUN00498,PRJUN68917831,16093.9,279.91,26,Bank narration shows reference PRJUN68917831. Bank paid 279.91 less than our books.,Recover the shortfall. It is usually a bank fee.
+June 2026,JUN-G0210,Bank paid less,TXNJUN00591,BLJUN00497,PRJUN98070348,20755.81,387.24,10,Bank narration shows reference PRJUN98070348. Bank paid 387.24 less than our books.,Recover the shortfall. It is usually a bank fee.
+June 2026,JUN-G0257,Never settled,TXNJUN00611,,PRJUN10889014,81459.21,81459.21,16,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0258,Never settled,TXNJUN00612,,PRJUN59821155,30135.75,30135.75,19,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0259,Never settled,TXNJUN00613,,PRJUN34544645,87041.65,87041.65,16,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0260,Never settled,TXNJUN00614,,PRJUN39808788,54889.03,54889.03,16,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0261,Never settled,TXNJUN00615,,PRJUN66797703,89282.26,89282.26,21,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0262,Never settled,TXNJUN00616,,PRJUN56612335,81772.91,81772.91,22,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0263,Never settled,TXNMAY00321,,PRMAY30270856,20973.69,20973.69,59,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0264,Never settled,TXNMAY00322,,PRMAY18113477,60674.78,60674.78,50,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0265,Never settled,TXNMAY00323,,PRMAY12111482,50677.13,50677.13,59,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0266,Never settled,TXNMAY00324,,PRMAY12244945,68677.76,68677.76,51,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0267,Never settled,TXNMAY00325,,PRMAY77406294,66372.15,66372.15,46,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0268,Never settled,TXNMAY00326,,PRMAY24363501,49935.52,49935.52,58,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0269,Never settled,TXNMAY00327,,PRMAY93185576,24166.62,24166.62,51,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0270,Never settled,TXNMAY00328,,PRMAY63270536,35596.64,35596.64,58,No bank credit found for this payment.,Chase the acquirer. This payment is overdue.
+June 2026,JUN-G0271,Credit we cannot place,,BLJUN00499,,66408.67,-66408.67,22,This credit does not match any payment in our books.,Ask the bank whose money this is.
+June 2026,JUN-G0272,Credit we cannot place,,BLJUN00500,,36200.8,-36200.8,19,This credit does not match any payment in our books.,Ask the bank whose money this is.
+June 2026,JUN-G0273,Credit we cannot place,,BLJUN00501,,81909.53,-81909.53,6,This credit does not match any payment in our books.,Ask the bank whose money this is.
+June 2026,JUN-G0274,Credit we cannot place,,BLJUN00502,,25776.43,-25776.43,18,This credit does not match any payment in our books.,Ask the bank whose money this is.

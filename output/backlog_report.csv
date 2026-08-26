@@ -1,0 +1,31 @@
+Transaction ID,Payment Reference,Merchant,Payment Date,Amount,Cleared In June,Days Old On 30 June,Classification,Comments
+TXNMAY00315,PRMAY30456313,M1037,2026-05-28,31504.74,Yes,33,Cleared in June,June credit BLJUN00269 settled this.
+TXNMAY00303,PRMAY84797762,M1014,2026-05-28,37052.7,Yes,33,Cleared in June,June credit BLJUN00257 settled this.
+TXNMAY00326,PRMAY24363501,M1013,2026-05-03,49935.52,No,58,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00311,PRMAY45106207,M1030,2026-05-29,48839.37,Yes,32,Cleared in June,June credit BLJUN00265 settled this.
+TXNMAY00310,PRMAY53166435,M1020,2026-05-29,36317.7,Yes,32,Cleared in June,June credit BLJUN00264 settled this.
+TXNMAY00316,PRMAY42981324,M1017,2026-05-30,52423.38,Yes,31,Cleared in June,June credit BLJUN00270 settled this.
+TXNMAY00304,PRMAY54327148,M1006,2026-05-27,87630.92,Yes,34,Cleared in June,June credit BLJUN00258 settled this.
+TXNMAY00308,PRMAY12058055,M1031,2026-05-28,89045.89,Yes,33,Cleared in June,June credit BLJUN00262 settled this.
+TXNMAY00301,PRMAY34679818,M1020,2026-05-30,23081.74,Yes,31,Cleared in June,June credit BLJUN00255 settled this.
+TXNMAY00314,PRMAY12176998,M1019,2026-05-29,52676.27,Yes,32,Cleared in June,June credit BLJUN00268 settled this.
+TXNMAY00322,PRMAY18113477,M1032,2026-05-11,60674.78,No,50,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00305,PRMAY81891784,M1039,2026-05-28,5133.1,Yes,33,Cleared in June,June credit BLJUN00259 settled this.
+TXNMAY00306,PRMAY90922827,M1038,2026-05-27,83025.54,Yes,34,Cleared in June,June credit BLJUN00260 settled this.
+TXNMAY00321,PRMAY30270856,M1024,2026-05-02,20973.69,No,59,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00312,PRMAY23234972,M1014,2026-05-30,72414.34,Yes,31,Cleared in June,June credit BLJUN00266 settled this.
+TXNMAY00325,PRMAY77406294,M1012,2026-05-15,66372.15,No,46,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00313,PRMAY59755172,M1010,2026-05-29,39469.88,Yes,32,Cleared in June,June credit BLJUN00267 settled this.
+TXNMAY00318,PRMAY28784915,M1034,2026-05-30,17688.53,Yes,31,Cleared in June,June credit BLJUN00272 settled this.
+TXNMAY00299,PRMAY16292676,M1034,2026-05-29,89465.31,Yes,32,Cleared in June,June credit BLJUN00253 settled this.
+TXNMAY00317,PRMAY75581613,M1011,2026-05-30,43913.55,Yes,31,Cleared in June,June credit BLJUN00271 settled this.
+TXNMAY00324,PRMAY12244945,M1002,2026-05-10,68677.76,No,51,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00323,PRMAY12111482,M1001,2026-05-02,50677.13,No,59,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00319,PRMAY14539747,M1001,2026-05-27,89806.57,Yes,34,Cleared in June,June credit BLJUN00273 settled this.
+TXNMAY00300,PRMAY52779814,M1025,2026-05-30,38932.56,Yes,31,Cleared in June,June credit BLJUN00254 settled this.
+TXNMAY00327,PRMAY93185576,M1018,2026-05-10,24166.62,No,51,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.
+TXNMAY00302,PRMAY29374563,M1027,2026-05-30,86921.73,Yes,31,Cleared in June,June credit BLJUN00256 settled this.
+TXNMAY00307,PRMAY85007641,M1020,2026-05-28,45672.6,Yes,33,Cleared in June,June credit BLJUN00261 settled this.
+TXNMAY00309,PRMAY42560305,M1036,2026-05-28,37830.89,Yes,33,Cleared in June,June credit BLJUN00263 settled this.
+TXNMAY00320,PRMAY65350347,M1005,2026-05-28,80081.11,Yes,33,Cleared in June,June credit BLJUN00274 settled this.
+TXNMAY00328,PRMAY63270536,M1030,2026-05-03,35596.64,No,58,Genuine Exception,Still open on 30 June. Past the normal delay window. Chase the bank.

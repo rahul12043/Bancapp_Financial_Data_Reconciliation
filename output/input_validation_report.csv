@@ -1,0 +1,47 @@
+File,What We Checked,Result,Row ID,Details
+internal_txns_may2026.csv,File opens correctly,OK,,328 rows read
+internal_txns_may2026.csv,All needed columns are there,OK,,All required columns present
+internal_txns_may2026.csv,Dates are real dates,OK,,All dates valid
+internal_txns_may2026.csv,Amounts are numbers,OK,,All amounts numeric
+internal_txns_may2026.csv,Every row has an ID,OK,,All rows have an id
+internal_txns_may2026.csv,No ID is repeated,OK,,All ids unique
+internal_txns_may2026.csv,Every row has a payment reference,OK,,All rows have a payment_ref
+internal_txns_may2026.csv,Currency is INR,OK,,All rows are INR
+internal_txns_may2026.csv,Only successful payments are used,OK,,All rows are SUCCESS
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00294,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00289,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00290,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00292,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00291,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00288,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00295,payment_ref is used by more than one transaction
+internal_txns_may2026.csv,Payment reference used more than once,Warning,TXNMAY00293,payment_ref is used by more than one transaction
+bank_stmt_may2026.csv,File opens correctly,OK,,252 rows read
+bank_stmt_may2026.csv,All needed columns are there,OK,,All required columns present
+bank_stmt_may2026.csv,Dates are real dates,OK,,All dates valid
+bank_stmt_may2026.csv,Amounts are numbers,OK,,All amounts numeric
+bank_stmt_may2026.csv,Every row has an ID,OK,,All rows have an id
+bank_stmt_may2026.csv,No ID is repeated,OK,,All ids unique
+bank_stmt_may2026.csv,Only money-in lines are used,OK,,All rows are credits
+internal_txns_jun2026.csv,File opens correctly,OK,,288 rows read
+internal_txns_jun2026.csv,All needed columns are there,OK,,All required columns present
+internal_txns_jun2026.csv,Dates are real dates,OK,,All dates valid
+internal_txns_jun2026.csv,Amounts are numbers,OK,,All amounts numeric
+internal_txns_jun2026.csv,Every row has an ID,OK,,All rows have an id
+internal_txns_jun2026.csv,No ID is repeated,OK,,All ids unique
+internal_txns_jun2026.csv,Every row has a payment reference,OK,,All rows have a payment_ref
+internal_txns_jun2026.csv,Currency is INR,OK,,All rows are INR
+internal_txns_jun2026.csv,Only successful payments are used,OK,,All rows are SUCCESS
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00589,payment_ref is used by more than one transaction
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00588,payment_ref is used by more than one transaction
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00587,payment_ref is used by more than one transaction
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00590,payment_ref is used by more than one transaction
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00585,payment_ref is used by more than one transaction
+internal_txns_jun2026.csv,Payment reference used more than once,Warning,TXNJUN00586,payment_ref is used by more than one transaction
+bank_stmt_jun2026.csv,File opens correctly,OK,,250 rows read
+bank_stmt_jun2026.csv,All needed columns are there,OK,,All required columns present
+bank_stmt_jun2026.csv,Dates are real dates,OK,,All dates valid
+bank_stmt_jun2026.csv,Amounts are numbers,OK,,All amounts numeric
+bank_stmt_jun2026.csv,Every row has an ID,OK,,All rows have an id
+bank_stmt_jun2026.csv,No ID is repeated,OK,,All ids unique
+bank_stmt_jun2026.csv,Only money-in lines are used,OK,,All rows are credits

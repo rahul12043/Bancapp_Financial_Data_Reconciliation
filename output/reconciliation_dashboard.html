@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reconciliation Dashboard - May &amp; June 2026</title>
+<style>
+:root {
+  --ink: #1b2333;
+  --muted: #667085;
+  --line: #e3e7ee;
+  --card: #ffffff;
+  --page: #f5f7fb;
+  --brand: #2f5fd8;
+  --ok: #12805c;   --ok-bg: #e3f5ee;
+  --warn: #9a6206; --warn-bg: #fdf1dc;
+  --wait: #2f5fd8; --wait-bg: #e6edfd;
+  --bad: #b42318;  --bad-bg: #fdeceb;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 20px 60px;
+  background: var(--page); color: var(--ink);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px; line-height: 1.55;
+}
+.wrap { max-width: 1020px; margin: 0 auto; }
+header {
+  background: linear-gradient(135deg, #2f5fd8 0%, #1b3f9e 100%);
+  color: #fff; border-radius: 14px; padding: 26px 28px;
+  box-shadow: 0 6px 18px rgba(27, 63, 158, 0.18);
+}
+header h1 { margin: 0 0 6px; font-size: 24px; font-weight: 600; letter-spacing: 0.2px; }
+header p { margin: 0; font-size: 13px; opacity: 0.88; }
+.kpis { display: flex; flex-wrap: wrap; gap: 14px; margin: 20px 0 6px; }
+.kpi {
+  flex: 1 1 150px; background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; padding: 16px 18px;
+}
+.kpi-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
+.kpi-value { font-size: 26px; font-weight: 600; margin: 4px 0 2px; color: var(--brand); }
+.kpi-note { font-size: 12px; color: var(--muted); }
+section {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 20px 22px; margin-top: 18px;
+}
+section h2 {
+  margin: 0 0 4px; font-size: 16px; font-weight: 600;
+  display: flex; align-items: center; gap: 9px;
+}
+section h2 .n {
+  background: var(--brand); color: #fff; border-radius: 6px;
+  font-size: 12px; padding: 1px 8px; font-weight: 600;
+}
+.lead { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.two { display: flex; flex-wrap: wrap; gap: 18px; }
+.two > div { flex: 1 1 380px; min-width: 300px; }
+.sub { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+table { border-collapse: collapse; width: 100%; margin-top: 8px; font-size: 13px; }
+th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+th {
+  background: #f0f3f9; color: #48536b; font-weight: 600;
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.4px;
+}
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.txt { text-align: left; }
+tbody tr:hover { background: #f8fafd; }
+tbody tr:last-child td { border-bottom: none; }
+.badge {
+  display: inline-block; padding: 2px 10px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; white-space: nowrap;
+}
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.warn { background: var(--warn-bg); color: var(--warn); }
+.badge.wait { background: var(--wait-bg); color: var(--wait); }
+.badge.bad { background: var(--bad-bg); color: var(--bad); }
+.note {
+  font-size: 12.5px; color: var(--muted); margin: 12px 0 0;
+  border-left: 3px solid var(--line); padding-left: 12px;
+}
+footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 22px; }
+@media (max-width: 700px) { .two > div { min-width: 100%; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Bank Settlement Reconciliation</h1>
+  <p>May and June 2026 &middot; all amounts in Indian Rupees &middot; built on 2026-08-26</p>
+</header>
+
+<div class="kpis">
+<div class="kpi"><div class="kpi-label">Groups checked</div><div class="kpi-value">548</div><div class="kpi-note">Both months together</div></div>
+<div class="kpi"><div class="kpi-label">Matched</div><div class="kpi-value">82.8 %</div><div class="kpi-note">454 groups tied out exactly</div></div>
+<div class="kpi"><div class="kpi-label">Problems to act on</div><div class="kpi-value">54</div><div class="kpi-note">Worth 2,462,960.13</div></div>
+<div class="kpi"><div class="kpi-label">Open on 30 June</div><div class="kpi-value">32</div><div class="kpi-note">No bank credit yet</div></div>
+</div>
+
+<section>
+  <h2><span class="n">1</span> How each month turned out</h2>
+  <p class="lead">A group is one unit of work. It can be one payment and one credit, or several of either.</p>
+  <div class="two">
+    <div>
+      <div class="sub">May 2026</div>
+      <div class="lead">328 payments in our books vs 252 bank credits</div>
+      <table><thead><tr><th class="txt">Status</th><th class="num">Groups</th><th class="num">Amount</th><th class="num">Share</th></tr></thead><tbody><tr><td class="txt"><span class="badge ok">Matched</span></td><td class="num">226</td><td class="num">11,573,494.91</td><td class="num">82.5 %</td></tr><tr><td class="txt"><span class="badge warn">Partial Match</span></td><td class="num">3</td><td class="num">74,256.73</td><td class="num">1.1 %</td></tr><tr><td class="txt"><span class="badge wait">Open</span></td><td class="num">30</td><td class="num">1,566,002.71</td><td class="num">10.9 %</td></tr><tr><td class="txt"><span class="badge bad">Exception</span></td><td class="num">15</td><td class="num">631,240.72</td><td class="num">5.5 %</td></tr><tr><td class="txt">Total</td><td class="num">274</td><td class="num"></td><td class="num">100.0 %</td></tr></tbody></table>
+      <p class="note">Our books 13,213,754.35 &middot; bank credits 12,120,211.96</p>
+    </div>
+    <div>
+      <div class="sub">June 2026</div>
+      <div class="lead">318 payments (30 carried from May) vs 250 bank credits</div>
+      <table><thead><tr><th class="txt">Status</th><th class="num">Groups</th><th class="num">Amount</th><th class="num">Share</th></tr></thead><tbody><tr><td class="txt"><span class="badge ok">Matched</span></td><td class="num">228</td><td class="num">10,940,058.19</td><td class="num">83.2 %</td></tr><tr><td class="txt"><span class="badge warn">Partial Match</span></td><td class="num">2</td><td class="num">36,849.71</td><td class="num">0.7 %</td></tr><tr><td class="txt"><span class="badge wait">Open</span></td><td class="num">32</td><td class="num">1,852,515.99</td><td class="num">11.7 %</td></tr><tr><td class="txt"><span class="badge bad">Exception</span></td><td class="num">12</td><td class="num">541,883.58</td><td class="num">4.4 %</td></tr><tr><td class="txt">Total</td><td class="num">274</td><td class="num"></td><td class="num">100.0 %</td></tr></tbody></table>
+      <p class="note">Our books 12,829,423.89 &middot; bank credits 11,420,470.32</p>
+    </div>
+  </div>
+  <p class="note">Amount is what our books say. Where our books have nothing, it is what the bank paid.</p>
+</section>
+
+<section>
+  <h2><span class="n">2</span> How payments were matched</h2>
+  <p class="lead">The bank does not always send one credit per payment. This is the mix we found.</p>
+  <div class="two">
+    <div><div class="sub">May 2026</div><table><thead><tr><th class="txt">Match type</th><th class="num">Groups</th><th class="num">Amount</th></tr></thead><tbody><tr><td class="txt">1:1 - one payment, one credit</td><td class="num">209</td><td class="num">10,289,658.23</td></tr><tr><td class="txt">1:N - one payment, many credits</td><td class="num">8</td><td class="num">591,916.62</td></tr><tr><td class="txt">N:1 - many payments, one credit</td><td class="num">11</td><td class="num">716,545.75</td></tr><tr><td class="txt">N:M - many payments, many credits</td><td class="num">1</td><td class="num">49,631.04</td></tr><tr><td class="txt">1:0 - payment with no credit</td><td class="num">30</td><td class="num">1,566,002.71</td></tr><tr><td class="txt">0:1 - credit with no payment</td><td class="num">11</td><td class="num">473,943.54</td></tr><tr><td class="txt">N:0 - entries that cancel out</td><td class="num">4</td><td class="num">157,297.18</td></tr></tbody></table></div>
+    <div><div class="sub">June 2026</div><table><thead><tr><th class="txt">Match type</th><th class="num">Groups</th><th class="num">Amount</th></tr></thead><tbody><tr><td class="txt">1:1 - one payment, one credit</td><td class="num">214</td><td class="num">9,883,040.45</td></tr><tr><td class="txt">1:N - one payment, many credits</td><td class="num">6</td><td class="num">493,975.59</td></tr><tr><td class="txt">N:1 - many payments, one credit</td><td class="num">9</td><td class="num">518,716.10</td></tr><tr><td class="txt">N:M - many payments, many credits</td><td class="num">1</td><td class="num">81,175.76</td></tr><tr><td class="txt">1:0 - payment with no credit</td><td class="num">32</td><td class="num">1,852,515.99</td></tr><tr><td class="txt">0:1 - credit with no payment</td><td class="num">9</td><td class="num">444,956.34</td></tr><tr><td class="txt">N:0 - entries that cancel out</td><td class="num">3</td><td class="num">96,927.24</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">3</span> May items carried into June</h2>
+  <p class="lead">May payments with no bank credit by 31 May were added to the June run, to see if June cleared them.</p>
+  <table><thead><tr><th class="txt">Item</th><th class="num">How many</th><th class="num">Amount</th></tr></thead><tbody><tr><td class="txt">May items carried into June</td><td class="num">30</td><td class="num">1,566,002.71</td></tr><tr><td class="txt"><span class="badge ok">Cleared in June</span></td><td class="num">22</td><td class="num">1,188,928.42</td></tr><tr><td class="txt">Still open on 30 June</td><td class="num">8</td><td class="num">377,074.29</td></tr></tbody></table>
+  <p class="note">Rule we used: an open item is a <b>Likely Settlement Lag</b> if it is 5 days old or less, and a <b>Genuine Exception</b> if it is older.
+  All 8 May items still open on 30 June are well past that, so every one of them is a Genuine Exception.</p>
+</section>
+
+<section>
+  <h2><span class="n">4</span> Problems found, and what to do</h2>
+  <p class="lead">Both months together. One line per type of problem.</p>
+  <table><thead><tr><th class="txt">Problem</th><th class="num">Items</th><th class="num">Amount</th><th class="txt">What to do</th></tr></thead><tbody><tr><td class="txt">Bank paid twice</td><td class="num">11</td><td class="num">496,223.04</td><td class="txt">Ask the bank to take the extra credit back.</td></tr><tr><td class="txt">Cancels out in our books</td><td class="num">7</td><td class="num">254,224.42</td><td class="txt">No action needed. Keep for the audit trail.</td></tr><tr><td class="txt">Credit we cannot place</td><td class="num">9</td><td class="num">422,676.84</td><td class="txt">Ask the bank whose money this is.</td></tr><tr><td class="txt">Bank paid less</td><td class="num">5</td><td class="num">111,106.44</td><td class="txt">Recover the shortfall. It is usually a bank fee.</td></tr><tr><td class="txt">Never settled</td><td class="num">22</td><td class="num">1,178,729.39</td><td class="txt">Chase the acquirer. This payment is overdue.</td></tr></tbody></table>
+  <p class="note">A May item still unsettled on 30 June appears in the May close and again in the June close.
+  The June rows are the closing position.</p>
+</section>
+
+<section>
+  <h2><span class="n">5</span> How old the unfinished items are</h2>
+  <p class="lead">Age is counted up to the end of the month the item belongs to.</p>
+  <table><thead><tr><th class="txt">Age</th><th class="num">Items</th><th class="num">Amount</th></tr></thead><tbody><tr><td class="txt">Up to 7 days</td><td class="num">42</td><td class="num">2,371,459.56</td></tr><tr><td class="txt">8 to 15 days</td><td class="num">7</td><td class="num">347,581.40</td></tr><tr><td class="txt">16 to 30 days</td><td class="num">32</td><td class="num">1,495,527.75</td></tr><tr><td class="txt">31 to 60 days</td><td class="num">8</td><td class="num">377,074.29</td></tr></tbody></table>
+</section>
+
+<section>
+  <h2><span class="n">6</span> Where we stand on 30 June 2026</h2>
+  <p class="lead">Payments still waiting for a bank credit at the June close.</p>
+  <table><thead><tr><th class="txt">Classification</th><th class="num">Items</th><th class="num">Amount</th></tr></thead><tbody><tr><td class="txt"><span class="badge wait">Likely Settlement Lag</span></td><td class="num">18</td><td class="num">1,050,860.89</td></tr><tr><td class="txt"><span class="badge bad">Genuine Exception</span></td><td class="num">14</td><td class="num">801,655.10</td></tr></tbody></table>
+</section>
+
+<footer>
+  Built from reconciliation_output.csv, exception_report.csv, backlog_report.csv,
+  summary_control_report.csv and input_validation_report.csv.
+</footer>
+
+</div>
+</body>
+</html>

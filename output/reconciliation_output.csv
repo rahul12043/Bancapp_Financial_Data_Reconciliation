@@ -1,0 +1,549 @@
+Month,Group ID,Our Transaction IDs,Bank Line IDs,Payment Reference,Cardinality,Our Amount,Bank Amount,Difference,Status,Days Old,Match Method,Comments
+May 2026,MAY-G0001,"TXNMAY00294,TXNMAY00295",,PRMAY37659807,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,26,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+May 2026,MAY-G0002,"TXNMAY00288,TXNMAY00289",,PRMAY39888974,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,28,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+May 2026,MAY-G0003,"TXNMAY00290,TXNMAY00291",,PRMAY60905625,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,21,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+May 2026,MAY-G0004,"TXNMAY00292,TXNMAY00293",,PRMAY25145751,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,27,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+May 2026,MAY-G0005,"TXNMAY00209,TXNMAY00210,TXNMAY00211,TXNMAY00212,TXNMAY00213,TXNMAY00214,TXNMAY00215",BLMAY00220,"PRMAY11097552,PRMAY38876195,PRMAY45496951,PRMAY47763008,PRMAY59115280,PRMAY62780072,PRMAY97813295","N:1 - many payments, one credit",65577.19,65577.19,0.0,Matched,19,Batch settlement,Bank paid batch BATCHMAY001 as one credit. Bank fees of 330.26 were added back.
+May 2026,MAY-G0006,"TXNMAY00216,TXNMAY00217,TXNMAY00218,TXNMAY00219,TXNMAY00220,TXNMAY00221",BLMAY00221,"PRMAY16080513,PRMAY22976369,PRMAY36717096,PRMAY55511258,PRMAY70445541,PRMAY93650068","N:1 - many payments, one credit",60887.02,60887.02,0.0,Matched,11,Batch settlement,Bank paid batch BATCHMAY002 as one credit. Bank fees of 211.67 were added back.
+May 2026,MAY-G0007,"TXNMAY00222,TXNMAY00223,TXNMAY00224,TXNMAY00225,TXNMAY00226,TXNMAY00227,TXNMAY00228,TXNMAY00229",BLMAY00222,"PRMAY45638891,PRMAY50237208,PRMAY59440148,PRMAY65907088,PRMAY78090664,PRMAY92284610,PRMAY92745294,PRMAY94457912","N:1 - many payments, one credit",95184.96,95184.96,0.0,Matched,9,Batch settlement,Bank paid batch BATCHMAY003 as one credit.
+May 2026,MAY-G0008,"TXNMAY00230,TXNMAY00231,TXNMAY00232,TXNMAY00233,TXNMAY00234,TXNMAY00235,TXNMAY00236",BLMAY00223,"PRMAY18359252,PRMAY24749927,PRMAY37365878,PRMAY42507072,PRMAY52103092,PRMAY92071195,PRMAY93179531","N:1 - many payments, one credit",57896.9,57896.9,0.0,Matched,10,Batch settlement,Bank paid batch BATCHMAY004 as one credit.
+May 2026,MAY-G0009,"TXNMAY00237,TXNMAY00238,TXNMAY00239,TXNMAY00240,TXNMAY00241,TXNMAY00242",BLMAY00224,"PRMAY35805259,PRMAY49945150,PRMAY50063879,PRMAY52111160,PRMAY81555103,PRMAY96343485","N:1 - many payments, one credit",68558.65,68558.65,0.0,Matched,11,Batch settlement,Bank paid batch BATCHMAY005 as one credit.
+May 2026,MAY-G0010,"TXNMAY00243,TXNMAY00244,TXNMAY00245,TXNMAY00246,TXNMAY00247,TXNMAY00248",BLMAY00225,"PRMAY20607151,PRMAY29659692,PRMAY46702849,PRMAY62953249,PRMAY82905845,PRMAY98043078","N:1 - many payments, one credit",67098.9,67098.9,0.0,Matched,13,Batch settlement,Bank paid batch BATCHMAY006 as one credit.
+May 2026,MAY-G0011,"TXNMAY00249,TXNMAY00250,TXNMAY00251,TXNMAY00252,TXNMAY00253",BLMAY00226,"PRMAY17045237,PRMAY73404979,PRMAY85432781,PRMAY92634772,PRMAY99903592","N:1 - many payments, one credit",35691.14,35691.14,0.0,Matched,22,Batch settlement,Bank paid batch BATCHMAY007 as one credit.
+May 2026,MAY-G0012,"TXNMAY00254,TXNMAY00255,TXNMAY00256,TXNMAY00257,TXNMAY00258",BLMAY00227,"PRMAY17940667,PRMAY33496796,PRMAY41168067,PRMAY48553376,PRMAY73847325","N:1 - many payments, one credit",64010.32,64010.32,0.0,Matched,11,Batch settlement,Bank paid batch BATCHMAY008 as one credit.
+May 2026,MAY-G0013,"TXNMAY00259,TXNMAY00260,TXNMAY00261,TXNMAY00262,TXNMAY00263,TXNMAY00264,TXNMAY00265",BLMAY00228,"PRMAY25119192,PRMAY28012011,PRMAY48851599,PRMAY54968591,PRMAY71594457,PRMAY86230551,PRMAY96075494","N:1 - many payments, one credit",74738.79,74738.79,0.0,Matched,16,Batch settlement,Bank paid batch BATCHMAY009 as one credit.
+May 2026,MAY-G0014,"TXNMAY00266,TXNMAY00267,TXNMAY00268,TXNMAY00269,TXNMAY00270,TXNMAY00271",BLMAY00229,"PRMAY28872606,PRMAY35925669,PRMAY43292316,PRMAY79159799,PRMAY95728324,PRMAY99826000","N:1 - many payments, one credit",53716.49,53716.49,0.0,Matched,28,Batch settlement,Bank paid batch BATCHMAY010 as one credit.
+May 2026,MAY-G0015,TXNMAY00208,"BLMAY00217,BLMAY00218,BLMAY00219",PRMAY48951595,"1:N - one payment, many credits",59861.62,59861.62,0.0,Matched,17,Part settlement,Bank paid this in 3 parts.
+May 2026,MAY-G0016,TXNMAY00206,"BLMAY00213,BLMAY00214",PRMAY70873663,"1:N - one payment, many credits",52646.44,52646.44,0.0,Matched,27,Part settlement,Bank paid this in 2 parts.
+May 2026,MAY-G0017,TXNMAY00204,"BLMAY00208,BLMAY00209",PRMAY96031876,"1:N - one payment, many credits",53696.05,53696.05,0.0,Matched,24,Part settlement,Bank paid this in 2 parts.
+May 2026,MAY-G0018,TXNMAY00201,"BLMAY00201,BLMAY00202,BLMAY00203",PRMAY63440127,"1:N - one payment, many credits",101533.16,101533.16,0.0,Matched,14,Part settlement,Bank paid this in 3 parts.
+May 2026,MAY-G0019,TXNMAY00203,"BLMAY00206,BLMAY00207",PRMAY79645282,"1:N - one payment, many credits",60048.42,60048.42,0.0,Matched,20,Part settlement,Bank paid this in 2 parts.
+May 2026,MAY-G0020,TXNMAY00202,"BLMAY00204,BLMAY00205",PRMAY68065043,"1:N - one payment, many credits",106511.26,106511.26,0.0,Matched,13,Part settlement,Bank paid this in 2 parts.
+May 2026,MAY-G0021,TXNMAY00207,"BLMAY00215,BLMAY00216",PRMAY59733063,"1:N - one payment, many credits",65529.27,65529.27,0.0,Matched,13,Part settlement,Bank paid this in 2 parts.
+May 2026,MAY-G0022,TXNMAY00205,"BLMAY00210,BLMAY00211,BLMAY00212",PRMAY96094462,"1:N - one payment, many credits",92090.4,92090.4,0.0,Matched,11,Part settlement,Bank paid this in 3 parts.
+May 2026,MAY-G0023,TXNMAY00073,BLMAY00073,PRMAY11698142,"1:1 - one payment, one credit",78165.85,78165.85,0.0,Matched,17,Payment reference match,Bank narration shows reference PRMAY11698142.
+May 2026,MAY-G0024,TXNMAY00108,BLMAY00108,PRMAY12059919,"1:1 - one payment, one credit",13908.73,13908.73,0.0,Matched,7,Payment reference match,Bank narration shows reference PRMAY12059919.
+May 2026,MAY-G0025,TXNMAY00079,BLMAY00079,PRMAY12314351,"1:1 - one payment, one credit",28128.82,28128.82,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY12314351.
+May 2026,MAY-G0026,TXNMAY00168,BLMAY00168,PRMAY12446861,"1:1 - one payment, one credit",29515.06,29515.06,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY12446861.
+May 2026,MAY-G0027,TXNMAY00117,BLMAY00117,PRMAY12944682,"1:1 - one payment, one credit",37752.59,37752.59,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY12944682.
+May 2026,MAY-G0028,TXNMAY00046,BLMAY00046,PRMAY13176186,"1:1 - one payment, one credit",18549.05,18549.05,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY13176186.
+May 2026,MAY-G0029,TXNMAY00076,BLMAY00076,PRMAY13852048,"1:1 - one payment, one credit",80877.78,80877.78,0.0,Matched,15,Payment reference match,Bank narration shows reference PRMAY13852048.
+May 2026,MAY-G0030,TXNMAY00125,BLMAY00125,PRMAY14994527,"1:1 - one payment, one credit",94614.12,94614.12,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY14994527.
+May 2026,MAY-G0031,TXNMAY00296,BLMAY00245,PRMAY15937353,"1:1 - one payment, one credit",29142.95,28904.03,238.92,Partial Match,15,Payment reference match,Bank narration shows reference PRMAY15937353. Bank paid 238.92 less than our books.
+May 2026,MAY-G0032,TXNMAY00049,BLMAY00049,PRMAY15957459,"1:1 - one payment, one credit",41566.45,41566.45,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY15957459.
+May 2026,MAY-G0033,TXNMAY00150,BLMAY00150,PRMAY16095815,"1:1 - one payment, one credit",37701.21,37701.21,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY16095815.
+May 2026,MAY-G0034,TXNMAY00187,BLMAY00187,PRMAY16416148,"1:1 - one payment, one credit",31699.86,31699.86,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY16416148.
+May 2026,MAY-G0035,TXNMAY00130,BLMAY00130,PRMAY16788532,"1:1 - one payment, one credit",23328.15,23328.15,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY16788532.
+May 2026,MAY-G0036,TXNMAY00039,BLMAY00039,PRMAY16818112,"1:1 - one payment, one credit",60348.45,60348.45,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY16818112.
+May 2026,MAY-G0037,TXNMAY00112,BLMAY00112,PRMAY17532195,"1:1 - one payment, one credit",34214.4,34214.4,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY17532195.
+May 2026,MAY-G0038,TXNMAY00092,BLMAY00092,PRMAY18004482,"1:1 - one payment, one credit",75351.56,75351.56,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY18004482.
+May 2026,MAY-G0039,TXNMAY00185,BLMAY00185,PRMAY18469210,"1:1 - one payment, one credit",73794.04,73794.04,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY18469210.
+May 2026,MAY-G0040,TXNMAY00193,BLMAY00193,PRMAY19023909,"1:1 - one payment, one credit",74014.33,74014.33,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY19023909.
+May 2026,MAY-G0041,TXNMAY00032,BLMAY00032,PRMAY19121552,"1:1 - one payment, one credit",81907.37,81907.37,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY19121552.
+May 2026,MAY-G0042,TXNMAY00110,BLMAY00110,PRMAY19183277,"1:1 - one payment, one credit",60052.51,60052.51,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY19183277.
+May 2026,MAY-G0043,TXNMAY00146,BLMAY00146,PRMAY19339597,"1:1 - one payment, one credit",70456.82,70456.82,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY19339597.
+May 2026,MAY-G0044,TXNMAY00022,BLMAY00022,PRMAY19528530,"1:1 - one payment, one credit",60047.01,60047.01,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY19528530.
+May 2026,MAY-G0045,TXNMAY00091,BLMAY00091,PRMAY19553585,"1:1 - one payment, one credit",22366.91,22366.91,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY19553585.
+May 2026,MAY-G0046,TXNMAY00041,BLMAY00041,PRMAY20099059,"1:1 - one payment, one credit",85897.23,85897.23,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY20099059.
+May 2026,MAY-G0047,TXNMAY00169,BLMAY00169,PRMAY20356922,"1:1 - one payment, one credit",80259.59,80259.59,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY20356922.
+May 2026,MAY-G0048,TXNMAY00178,BLMAY00178,PRMAY20633503,"1:1 - one payment, one credit",24498.79,24498.79,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY20633503.
+May 2026,MAY-G0049,TXNMAY00287,BLMAY00243,PRMAY20770971,"1:1 - one payment, one credit",12850.78,12850.78,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY20770971.
+May 2026,MAY-G0050,,BLMAY00244,,0:1 - credit with no payment,0.0,12850.78,-12850.78,Exception,9,Payment reference match,Reference PRMAY20770971 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0051,TXNMAY00166,BLMAY00166,PRMAY20939011,"1:1 - one payment, one credit",63127.25,63127.25,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY20939011.
+May 2026,MAY-G0052,TXNMAY00087,BLMAY00087,PRMAY21432787,"1:1 - one payment, one credit",11473.29,11473.29,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY21432787.
+May 2026,MAY-G0053,TXNMAY00078,BLMAY00078,PRMAY21490777,"1:1 - one payment, one credit",68477.07,68477.07,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY21490777.
+May 2026,MAY-G0054,TXNMAY00013,BLMAY00013,PRMAY22201654,"1:1 - one payment, one credit",4714.28,4714.28,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY22201654.
+May 2026,MAY-G0055,TXNMAY00094,BLMAY00094,PRMAY22257687,"1:1 - one payment, one credit",91391.08,91391.08,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY22257687.
+May 2026,MAY-G0056,TXNMAY00141,BLMAY00141,PRMAY22960658,"1:1 - one payment, one credit",70250.92,70250.92,0.0,Matched,7,Payment reference match,Bank narration shows reference PRMAY22960658.
+May 2026,MAY-G0057,TXNMAY00143,BLMAY00143,PRMAY23905032,"1:1 - one payment, one credit",48327.34,48327.34,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY23905032.
+May 2026,MAY-G0058,TXNMAY00155,BLMAY00155,PRMAY24208709,"1:1 - one payment, one credit",41530.35,41530.35,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY24208709.
+May 2026,MAY-G0059,TXNMAY00056,BLMAY00056,PRMAY24305904,"1:1 - one payment, one credit",40532.6,40532.6,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY24305904.
+May 2026,MAY-G0060,TXNMAY00048,BLMAY00048,PRMAY24549543,"1:1 - one payment, one credit",41424.92,41424.92,0.0,Matched,11,Payment reference match,Bank narration shows reference PRMAY24549543.
+May 2026,MAY-G0061,TXNMAY00026,BLMAY00026,PRMAY24665841,"1:1 - one payment, one credit",18403.16,18403.16,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY24665841.
+May 2026,MAY-G0062,TXNMAY00015,BLMAY00015,PRMAY25374874,"1:1 - one payment, one credit",84083.71,84083.71,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY25374874.
+May 2026,MAY-G0063,TXNMAY00144,BLMAY00144,PRMAY25419645,"1:1 - one payment, one credit",26644.34,26644.34,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY25419645.
+May 2026,MAY-G0064,TXNMAY00057,BLMAY00057,PRMAY26288475,"1:1 - one payment, one credit",12883.88,12883.88,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY26288475.
+May 2026,MAY-G0065,TXNMAY00100,BLMAY00100,PRMAY26297533,"1:1 - one payment, one credit",92455.66,92455.66,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY26297533.
+May 2026,MAY-G0066,TXNMAY00084,BLMAY00084,PRMAY26948946,"1:1 - one payment, one credit",82536.7,82536.7,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY26948946.
+May 2026,MAY-G0067,TXNMAY00065,BLMAY00065,PRMAY28213276,"1:1 - one payment, one credit",17468.83,17468.83,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY28213276.
+May 2026,MAY-G0068,TXNMAY00151,BLMAY00151,PRMAY28419343,"1:1 - one payment, one credit",24460.47,24460.47,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY28419343.
+May 2026,MAY-G0069,TXNMAY00177,BLMAY00177,PRMAY28468304,"1:1 - one payment, one credit",27431.82,27431.82,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY28468304.
+May 2026,MAY-G0070,TXNMAY00132,BLMAY00132,PRMAY29419691,"1:1 - one payment, one credit",51435.41,51435.41,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY29419691.
+May 2026,MAY-G0071,TXNMAY00060,BLMAY00060,PRMAY30244148,"1:1 - one payment, one credit",36542.59,36542.59,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY30244148.
+May 2026,MAY-G0072,TXNMAY00090,BLMAY00090,PRMAY31009452,"1:1 - one payment, one credit",38957.04,38957.04,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY31009452.
+May 2026,MAY-G0073,TXNMAY00004,BLMAY00004,PRMAY31429110,"1:1 - one payment, one credit",40292.71,40292.71,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY31429110.
+May 2026,MAY-G0074,TXNMAY00009,BLMAY00009,PRMAY31931511,"1:1 - one payment, one credit",36203.4,36203.4,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY31931511.
+May 2026,MAY-G0075,TXNMAY00282,BLMAY00233,PRMAY32083803,"1:1 - one payment, one credit",81212.55,81212.55,0.0,Matched,17,Payment reference match,Bank narration shows reference PRMAY32083803.
+May 2026,MAY-G0076,,BLMAY00234,,0:1 - credit with no payment,0.0,81212.55,-81212.55,Exception,16,Payment reference match,Reference PRMAY32083803 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0077,TXNMAY00028,BLMAY00028,PRMAY32321899,"1:1 - one payment, one credit",46264.5,46264.5,0.0,Matched,17,Payment reference match,Bank narration shows reference PRMAY32321899.
+May 2026,MAY-G0078,TXNMAY00158,BLMAY00158,PRMAY33286644,"1:1 - one payment, one credit",14734.41,14734.41,0.0,Matched,11,Payment reference match,Bank narration shows reference PRMAY33286644.
+May 2026,MAY-G0079,TXNMAY00113,BLMAY00113,PRMAY33497411,"1:1 - one payment, one credit",57999.35,57999.35,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY33497411.
+May 2026,MAY-G0080,TXNMAY00120,BLMAY00120,PRMAY33574011,"1:1 - one payment, one credit",12772.14,12772.14,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY33574011.
+May 2026,MAY-G0081,TXNMAY00152,BLMAY00152,PRMAY33581357,"1:1 - one payment, one credit",36274.66,36274.66,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY33581357.
+May 2026,MAY-G0082,TXNMAY00044,BLMAY00044,PRMAY33763566,"1:1 - one payment, one credit",2598.51,2598.51,0.0,Matched,17,Payment reference match,Bank narration shows reference PRMAY33763566.
+May 2026,MAY-G0083,TXNMAY00083,BLMAY00083,PRMAY34084236,"1:1 - one payment, one credit",1590.56,1590.56,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY34084236.
+May 2026,MAY-G0084,TXNMAY00145,BLMAY00145,PRMAY34215035,"1:1 - one payment, one credit",66830.71,66830.71,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY34215035.
+May 2026,MAY-G0085,TXNMAY00129,BLMAY00129,PRMAY35475673,"1:1 - one payment, one credit",90168.77,90168.77,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY35475673.
+May 2026,MAY-G0086,TXNMAY00030,BLMAY00030,PRMAY35487660,"1:1 - one payment, one credit",20877.16,20877.16,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY35487660.
+May 2026,MAY-G0087,TXNMAY00116,BLMAY00116,PRMAY36738452,"1:1 - one payment, one credit",81103.53,81103.53,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY36738452.
+May 2026,MAY-G0088,TXNMAY00197,BLMAY00197,PRMAY36867482,"1:1 - one payment, one credit",13110.27,13110.27,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY36867482.
+May 2026,MAY-G0089,TXNMAY00063,BLMAY00063,PRMAY39450273,"1:1 - one payment, one credit",41545.46,41545.46,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY39450273.
+May 2026,MAY-G0090,TXNMAY00081,BLMAY00081,PRMAY40942292,"1:1 - one payment, one credit",68591.69,68591.69,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY40942292.
+May 2026,MAY-G0091,TXNMAY00054,BLMAY00054,PRMAY41523529,"1:1 - one payment, one credit",29662.24,29662.24,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY41523529.
+May 2026,MAY-G0092,TXNMAY00128,BLMAY00128,PRMAY41690501,"1:1 - one payment, one credit",9663.85,9663.85,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY41690501.
+May 2026,MAY-G0093,TXNMAY00179,BLMAY00179,PRMAY41895531,"1:1 - one payment, one credit",11795.13,11795.13,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY41895531.
+May 2026,MAY-G0094,TXNMAY00133,BLMAY00133,PRMAY41934639,"1:1 - one payment, one credit",30927.35,30927.35,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY41934639.
+May 2026,MAY-G0095,TXNMAY00023,BLMAY00023,PRMAY41944441,"1:1 - one payment, one credit",63635.64,63635.64,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY41944441.
+May 2026,MAY-G0096,TXNMAY00024,BLMAY00024,PRMAY42614537,"1:1 - one payment, one credit",76760.34,76760.34,0.0,Matched,15,Payment reference match,Bank narration shows reference PRMAY42614537.
+May 2026,MAY-G0097,TXNMAY00075,BLMAY00075,PRMAY42949803,"1:1 - one payment, one credit",26678.45,26678.45,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY42949803.
+May 2026,MAY-G0098,TXNMAY00068,BLMAY00068,PRMAY43189803,"1:1 - one payment, one credit",79766.93,79766.93,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY43189803.
+May 2026,MAY-G0099,TXNMAY00027,BLMAY00027,PRMAY43528453,"1:1 - one payment, one credit",42236.64,42236.64,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY43528453.
+May 2026,MAY-G0100,TXNMAY00173,BLMAY00173,PRMAY43554863,"1:1 - one payment, one credit",61001.71,61001.71,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY43554863.
+May 2026,MAY-G0101,TXNMAY00038,BLMAY00038,PRMAY46553958,"1:1 - one payment, one credit",57557.63,57557.63,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY46553958.
+May 2026,MAY-G0102,TXNMAY00095,BLMAY00095,PRMAY47333543,"1:1 - one payment, one credit",94710.58,94710.58,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY47333543.
+May 2026,MAY-G0103,TXNMAY00174,BLMAY00174,PRMAY48260510,"1:1 - one payment, one credit",72555.32,72555.32,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY48260510.
+May 2026,MAY-G0104,TXNMAY00118,BLMAY00118,PRMAY48412328,"1:1 - one payment, one credit",75942.0,75942.0,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY48412328.
+May 2026,MAY-G0105,TXNMAY00286,BLMAY00241,PRMAY48532662,"1:1 - one payment, one credit",17303.23,17303.23,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY48532662.
+May 2026,MAY-G0106,,BLMAY00242,,0:1 - credit with no payment,0.0,17303.23,-17303.23,Exception,13,Payment reference match,Reference PRMAY48532662 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0107,TXNMAY00154,BLMAY00154,PRMAY48858073,"1:1 - one payment, one credit",38626.81,38626.81,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY48858073.
+May 2026,MAY-G0108,TXNMAY00051,BLMAY00051,PRMAY49682169,"1:1 - one payment, one credit",12310.52,12310.52,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY49682169.
+May 2026,MAY-G0109,TXNMAY00104,BLMAY00104,PRMAY50071487,"1:1 - one payment, one credit",55197.74,55197.74,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY50071487.
+May 2026,MAY-G0110,TXNMAY00298,BLMAY00247,PRMAY50332555,"1:1 - one payment, one credit",8352.67,7970.69,381.98,Partial Match,19,Payment reference match,Bank narration shows reference PRMAY50332555. Bank paid 381.98 less than our books.
+May 2026,MAY-G0111,TXNMAY00042,BLMAY00042,PRMAY51373735,"1:1 - one payment, one credit",85428.5,85428.5,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY51373735.
+May 2026,MAY-G0112,TXNMAY00167,BLMAY00167,PRMAY51551377,"1:1 - one payment, one credit",35940.36,35940.36,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY51551377.
+May 2026,MAY-G0113,TXNMAY00186,BLMAY00186,PRMAY51617680,"1:1 - one payment, one credit",37981.73,37981.73,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY51617680.
+May 2026,MAY-G0114,TXNMAY00070,BLMAY00070,PRMAY51746937,"1:1 - one payment, one credit",55080.38,55080.38,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY51746937.
+May 2026,MAY-G0115,TXNMAY00010,BLMAY00010,PRMAY52339391,"1:1 - one payment, one credit",25618.45,25618.45,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY52339391.
+May 2026,MAY-G0116,TXNMAY00198,BLMAY00198,PRMAY52894344,"1:1 - one payment, one credit",33168.55,33168.55,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY52894344.
+May 2026,MAY-G0117,TXNMAY00137,BLMAY00137,PRMAY53233116,"1:1 - one payment, one credit",14304.63,14304.63,0.0,Matched,11,Payment reference match,Bank narration shows reference PRMAY53233116.
+May 2026,MAY-G0118,TXNMAY00018,BLMAY00018,PRMAY53507489,"1:1 - one payment, one credit",2095.42,2095.42,0.0,Matched,15,Payment reference match,Bank narration shows reference PRMAY53507489.
+May 2026,MAY-G0119,TXNMAY00190,BLMAY00190,PRMAY54012664,"1:1 - one payment, one credit",28261.89,28261.89,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY54012664.
+May 2026,MAY-G0120,TXNMAY00105,BLMAY00105,PRMAY54619335,"1:1 - one payment, one credit",72532.19,72532.19,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY54619335.
+May 2026,MAY-G0121,TXNMAY00096,BLMAY00096,PRMAY54735895,"1:1 - one payment, one credit",63745.15,63745.15,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY54735895.
+May 2026,MAY-G0122,TXNMAY00066,BLMAY00066,PRMAY55298556,"1:1 - one payment, one credit",83595.89,83595.89,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY55298556.
+May 2026,MAY-G0123,TXNMAY00121,BLMAY00121,PRMAY55461591,"1:1 - one payment, one credit",44624.4,44624.4,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY55461591.
+May 2026,MAY-G0124,TXNMAY00139,BLMAY00139,PRMAY55490631,"1:1 - one payment, one credit",38029.68,38029.68,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY55490631.
+May 2026,MAY-G0125,TXNMAY00156,BLMAY00156,PRMAY55568701,"1:1 - one payment, one credit",31808.25,31808.25,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY55568701.
+May 2026,MAY-G0126,TXNMAY00077,BLMAY00077,PRMAY55679506,"1:1 - one payment, one credit",83660.32,83660.32,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY55679506.
+May 2026,MAY-G0127,TXNMAY00147,BLMAY00147,PRMAY55754284,"1:1 - one payment, one credit",35312.53,35312.53,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY55754284.
+May 2026,MAY-G0128,TXNMAY00163,BLMAY00163,PRMAY56095437,"1:1 - one payment, one credit",8240.19,8240.19,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY56095437.
+May 2026,MAY-G0129,TXNMAY00183,BLMAY00183,PRMAY56278607,"1:1 - one payment, one credit",69696.16,69696.16,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY56278607.
+May 2026,MAY-G0130,TXNMAY00036,BLMAY00036,PRMAY56843172,"1:1 - one payment, one credit",83560.86,83560.86,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY56843172.
+May 2026,MAY-G0131,TXNMAY00157,BLMAY00157,PRMAY56892354,"1:1 - one payment, one credit",69169.17,69169.17,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY56892354.
+May 2026,MAY-G0132,TXNMAY00191,BLMAY00191,PRMAY57183837,"1:1 - one payment, one credit",4263.15,4263.15,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY57183837.
+May 2026,MAY-G0133,TXNMAY00181,BLMAY00181,PRMAY57354167,"1:1 - one payment, one credit",54320.39,54320.39,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY57354167.
+May 2026,MAY-G0134,TXNMAY00043,BLMAY00043,PRMAY57469942,"1:1 - one payment, one credit",53298.96,53298.96,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY57469942.
+May 2026,MAY-G0135,TXNMAY00200,BLMAY00200,PRMAY58438711,"1:1 - one payment, one credit",54473.28,54473.28,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY58438711.
+May 2026,MAY-G0136,TXNMAY00171,BLMAY00171,PRMAY58895439,"1:1 - one payment, one credit",68430.74,68430.74,0.0,Matched,9,Payment reference match,Bank narration shows reference PRMAY58895439.
+May 2026,MAY-G0137,TXNMAY00161,BLMAY00161,PRMAY59491122,"1:1 - one payment, one credit",7520.26,7520.26,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY59491122.
+May 2026,MAY-G0138,TXNMAY00140,BLMAY00140,PRMAY60237832,"1:1 - one payment, one credit",65326.29,65326.29,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY60237832.
+May 2026,MAY-G0139,TXNMAY00005,BLMAY00005,PRMAY60992979,"1:1 - one payment, one credit",34263.3,34263.3,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY60992979.
+May 2026,MAY-G0140,TXNMAY00045,BLMAY00045,PRMAY61343880,"1:1 - one payment, one credit",81601.71,81601.71,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY61343880.
+May 2026,MAY-G0141,TXNMAY00103,BLMAY00103,PRMAY61484043,"1:1 - one payment, one credit",87597.01,87597.01,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY61484043.
+May 2026,MAY-G0142,TXNMAY00014,BLMAY00014,PRMAY61642594,"1:1 - one payment, one credit",56710.43,56710.43,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY61642594.
+May 2026,MAY-G0143,TXNMAY00176,BLMAY00176,PRMAY61830338,"1:1 - one payment, one credit",35772.98,35772.98,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY61830338.
+May 2026,MAY-G0144,TXNMAY00188,BLMAY00188,PRMAY61894582,"1:1 - one payment, one credit",92510.31,92510.31,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY61894582.
+May 2026,MAY-G0145,TXNMAY00029,BLMAY00029,PRMAY62401521,"1:1 - one payment, one credit",88037.59,88037.59,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY62401521.
+May 2026,MAY-G0146,TXNMAY00122,BLMAY00122,PRMAY62958901,"1:1 - one payment, one credit",25307.45,25307.45,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY62958901.
+May 2026,MAY-G0147,TXNMAY00011,BLMAY00011,PRMAY63100814,"1:1 - one payment, one credit",43726.21,43726.21,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY63100814.
+May 2026,MAY-G0148,TXNMAY00034,BLMAY00034,PRMAY63121477,"1:1 - one payment, one credit",63892.65,63892.65,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY63121477.
+May 2026,MAY-G0149,TXNMAY00086,BLMAY00086,PRMAY63782042,"1:1 - one payment, one credit",7269.29,7269.29,0.0,Matched,15,Payment reference match,Bank narration shows reference PRMAY63782042.
+May 2026,MAY-G0150,TXNMAY00093,BLMAY00093,PRMAY64023778,"1:1 - one payment, one credit",47669.74,47669.74,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY64023778.
+May 2026,MAY-G0151,TXNMAY00052,BLMAY00052,PRMAY64502486,"1:1 - one payment, one credit",79245.46,79245.46,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY64502486.
+May 2026,MAY-G0152,TXNMAY00101,BLMAY00101,PRMAY64759583,"1:1 - one payment, one credit",21540.39,21540.39,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY64759583.
+May 2026,MAY-G0153,TXNMAY00106,BLMAY00106,PRMAY65133300,"1:1 - one payment, one credit",30397.21,30397.21,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY65133300.
+May 2026,MAY-G0154,TXNMAY00025,BLMAY00025,PRMAY65177213,"1:1 - one payment, one credit",82098.53,82098.53,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY65177213.
+May 2026,MAY-G0155,TXNMAY00149,BLMAY00149,PRMAY65590800,"1:1 - one payment, one credit",20675.16,20675.16,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY65590800.
+May 2026,MAY-G0156,TXNMAY00055,BLMAY00055,PRMAY65625330,"1:1 - one payment, one credit",54794.82,54794.82,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY65625330.
+May 2026,MAY-G0157,TXNMAY00189,BLMAY00189,PRMAY66975380,"1:1 - one payment, one credit",41050.03,41050.03,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY66975380.
+May 2026,MAY-G0158,TXNMAY00074,BLMAY00074,PRMAY68450095,"1:1 - one payment, one credit",69777.11,69777.11,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY68450095.
+May 2026,MAY-G0159,TXNMAY00153,BLMAY00153,PRMAY68548403,"1:1 - one payment, one credit",43811.72,43811.72,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY68548403.
+May 2026,MAY-G0160,TXNMAY00059,BLMAY00059,PRMAY69038700,"1:1 - one payment, one credit",67858.38,67858.38,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY69038700.
+May 2026,MAY-G0161,TXNMAY00119,BLMAY00119,PRMAY69166287,"1:1 - one payment, one credit",55164.62,55164.62,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY69166287.
+May 2026,MAY-G0162,TXNMAY00115,BLMAY00115,PRMAY69287967,"1:1 - one payment, one credit",93830.0,93830.0,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY69287967.
+May 2026,MAY-G0163,TXNMAY00053,BLMAY00053,PRMAY69295515,"1:1 - one payment, one credit",64265.68,64265.68,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY69295515.
+May 2026,MAY-G0164,TXNMAY00088,BLMAY00088,PRMAY69421007,"1:1 - one payment, one credit",81750.79,81750.79,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY69421007.
+May 2026,MAY-G0165,TXNMAY00194,BLMAY00194,PRMAY70387584,"1:1 - one payment, one credit",35498.27,35498.27,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY70387584.
+May 2026,MAY-G0166,TXNMAY00175,BLMAY00175,PRMAY70549373,"1:1 - one payment, one credit",88412.22,88412.22,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY70549373.
+May 2026,MAY-G0167,TXNMAY00135,BLMAY00135,PRMAY70667140,"1:1 - one payment, one credit",21241.84,21241.84,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY70667140.
+May 2026,MAY-G0168,TXNMAY00126,BLMAY00126,PRMAY70887034,"1:1 - one payment, one credit",63778.57,63778.57,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY70887034.
+May 2026,MAY-G0169,TXNMAY00138,BLMAY00138,PRMAY70896652,"1:1 - one payment, one credit",57614.19,57614.19,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY70896652.
+May 2026,MAY-G0170,TXNMAY00016,BLMAY00016,PRMAY70897765,"1:1 - one payment, one credit",90624.06,90624.06,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY70897765.
+May 2026,MAY-G0171,TXNMAY00114,BLMAY00114,PRMAY71894493,"1:1 - one payment, one credit",24314.35,24314.35,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY71894493.
+May 2026,MAY-G0172,TXNMAY00284,BLMAY00237,PRMAY72059365,"1:1 - one payment, one credit",68780.79,68780.79,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY72059365.
+May 2026,MAY-G0173,,BLMAY00238,,0:1 - credit with no payment,0.0,68780.79,-68780.79,Exception,17,Payment reference match,Reference PRMAY72059365 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0174,TXNMAY00064,BLMAY00064,PRMAY72732043,"1:1 - one payment, one credit",93173.41,93173.41,0.0,Matched,26,Payment reference match,Bank narration shows reference PRMAY72732043.
+May 2026,MAY-G0175,TXNMAY00172,BLMAY00172,PRMAY72950208,"1:1 - one payment, one credit",35102.93,35102.93,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY72950208.
+May 2026,MAY-G0176,TXNMAY00182,BLMAY00182,PRMAY73100462,"1:1 - one payment, one credit",60479.81,60479.81,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY73100462.
+May 2026,MAY-G0177,TXNMAY00062,BLMAY00062,PRMAY74019136,"1:1 - one payment, one credit",89574.77,89574.77,0.0,Matched,30,Payment reference match,Bank narration shows reference PRMAY74019136.
+May 2026,MAY-G0178,TXNMAY00085,BLMAY00085,PRMAY74251933,"1:1 - one payment, one credit",32531.89,32531.89,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY74251933.
+May 2026,MAY-G0179,TXNMAY00136,BLMAY00136,PRMAY74287863,"1:1 - one payment, one credit",40639.43,40639.43,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY74287863.
+May 2026,MAY-G0180,TXNMAY00019,BLMAY00019,PRMAY75228535,"1:1 - one payment, one credit",92914.03,92914.03,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY75228535.
+May 2026,MAY-G0181,TXNMAY00127,BLMAY00127,PRMAY75679047,"1:1 - one payment, one credit",38918.98,38918.98,0.0,Matched,11,Payment reference match,Bank narration shows reference PRMAY75679047.
+May 2026,MAY-G0182,TXNMAY00107,BLMAY00107,PRMAY77416376,"1:1 - one payment, one credit",31706.5,31706.5,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY77416376.
+May 2026,MAY-G0183,TXNMAY00102,BLMAY00102,PRMAY78299645,"1:1 - one payment, one credit",26157.01,26157.01,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY78299645.
+May 2026,MAY-G0184,TXNMAY00283,BLMAY00235,PRMAY78501420,"1:1 - one payment, one credit",76873.57,76873.57,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY78501420.
+May 2026,MAY-G0185,,BLMAY00236,,0:1 - credit with no payment,0.0,76873.57,-76873.57,Exception,12,Payment reference match,Reference PRMAY78501420 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0186,TXNMAY00021,BLMAY00021,PRMAY79467853,"1:1 - one payment, one credit",11715.15,11715.15,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY79467853.
+May 2026,MAY-G0187,TXNMAY00164,BLMAY00164,PRMAY80339290,"1:1 - one payment, one credit",58029.06,58029.06,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY80339290.
+May 2026,MAY-G0188,TXNMAY00134,BLMAY00134,PRMAY80610004,"1:1 - one payment, one credit",70901.78,70901.78,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY80610004.
+May 2026,MAY-G0189,TXNMAY00020,BLMAY00020,PRMAY80823176,"1:1 - one payment, one credit",40342.32,40342.32,0.0,Matched,11,Payment reference match,Bank narration shows reference PRMAY80823176.
+May 2026,MAY-G0190,TXNMAY00047,BLMAY00047,PRMAY81969657,"1:1 - one payment, one credit",89242.72,89242.72,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY81969657.
+May 2026,MAY-G0191,TXNMAY00006,BLMAY00006,PRMAY81971316,"1:1 - one payment, one credit",92452.72,92452.72,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY81971316.
+May 2026,MAY-G0192,TXNMAY00067,BLMAY00067,PRMAY82399599,"1:1 - one payment, one credit",94991.27,94991.27,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY82399599.
+May 2026,MAY-G0193,TXNMAY00061,BLMAY00061,PRMAY82828034,"1:1 - one payment, one credit",39644.61,39644.61,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY82828034.
+May 2026,MAY-G0194,TXNMAY00002,BLMAY00002,PRMAY83197857,"1:1 - one payment, one credit",56199.17,56199.17,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY83197857.
+May 2026,MAY-G0195,TXNMAY00184,BLMAY00184,PRMAY83284724,"1:1 - one payment, one credit",77329.97,77329.97,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY83284724.
+May 2026,MAY-G0196,TXNMAY00058,BLMAY00058,PRMAY83534128,"1:1 - one payment, one credit",85260.47,85260.47,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY83534128.
+May 2026,MAY-G0197,TXNMAY00097,BLMAY00097,PRMAY83832717,"1:1 - one payment, one credit",43344.75,43344.75,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY83832717.
+May 2026,MAY-G0198,TXNMAY00080,BLMAY00080,PRMAY84285882,"1:1 - one payment, one credit",32821.01,32821.01,0.0,Matched,14,Payment reference match,Bank narration shows reference PRMAY84285882.
+May 2026,MAY-G0199,TXNMAY00003,BLMAY00003,PRMAY85329037,"1:1 - one payment, one credit",68092.86,68092.86,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY85329037.
+May 2026,MAY-G0200,TXNMAY00196,BLMAY00196,PRMAY85386435,"1:1 - one payment, one credit",25053.34,25053.34,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY85386435.
+May 2026,MAY-G0201,TXNMAY00069,BLMAY00069,PRMAY85694715,"1:1 - one payment, one credit",44311.97,44311.97,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY85694715.
+May 2026,MAY-G0202,TXNMAY00072,BLMAY00072,PRMAY85958181,"1:1 - one payment, one credit",33147.56,33147.56,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY85958181.
+May 2026,MAY-G0203,TXNMAY00162,BLMAY00162,PRMAY86726461,"1:1 - one payment, one credit",18085.69,18085.69,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY86726461.
+May 2026,MAY-G0204,TXNMAY00297,BLMAY00246,PRMAY87324220,"1:1 - one payment, one credit",36761.11,36440.72,320.39,Partial Match,17,Payment reference match,Bank narration shows reference PRMAY87324220. Bank paid 320.39 less than our books.
+May 2026,MAY-G0205,TXNMAY00285,BLMAY00239,PRMAY87619624,"1:1 - one payment, one credit",4541.21,4541.21,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY87619624.
+May 2026,MAY-G0206,,BLMAY00240,,0:1 - credit with no payment,0.0,4541.21,-4541.21,Exception,24,Payment reference match,Reference PRMAY87619624 was already paid in full. This credit is a repeat.
+May 2026,MAY-G0207,TXNMAY00031,BLMAY00031,PRMAY88406989,"1:1 - one payment, one credit",47895.07,47895.07,0.0,Matched,15,Payment reference match,Bank narration shows reference PRMAY88406989.
+May 2026,MAY-G0208,TXNMAY00012,BLMAY00012,PRMAY88461803,"1:1 - one payment, one credit",85318.72,85318.72,0.0,Matched,17,Payment reference match,Bank narration shows reference PRMAY88461803.
+May 2026,MAY-G0209,TXNMAY00131,BLMAY00131,PRMAY88703005,"1:1 - one payment, one credit",77286.77,77286.77,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY88703005.
+May 2026,MAY-G0210,TXNMAY00082,BLMAY00082,PRMAY89133014,"1:1 - one payment, one credit",49959.34,49959.34,0.0,Matched,6,Payment reference match,Bank narration shows reference PRMAY89133014.
+May 2026,MAY-G0211,TXNMAY00160,BLMAY00160,PRMAY89379016,"1:1 - one payment, one credit",33596.53,33596.53,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY89379016.
+May 2026,MAY-G0212,TXNMAY00071,BLMAY00071,PRMAY89470029,"1:1 - one payment, one credit",78946.66,78946.66,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY89470029.
+May 2026,MAY-G0213,TXNMAY00180,BLMAY00180,PRMAY90092958,"1:1 - one payment, one credit",1807.25,1807.25,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY90092958.
+May 2026,MAY-G0214,TXNMAY00170,BLMAY00170,PRMAY90161060,"1:1 - one payment, one credit",14865.45,14865.45,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY90161060.
+May 2026,MAY-G0215,TXNMAY00124,BLMAY00124,PRMAY91883846,"1:1 - one payment, one credit",61615.06,61615.06,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY91883846.
+May 2026,MAY-G0216,TXNMAY00037,BLMAY00037,PRMAY92097999,"1:1 - one payment, one credit",50367.13,50367.13,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY92097999.
+May 2026,MAY-G0217,TXNMAY00148,BLMAY00148,PRMAY92924837,"1:1 - one payment, one credit",64108.54,64108.54,0.0,Matched,29,Payment reference match,Bank narration shows reference PRMAY92924837.
+May 2026,MAY-G0218,TXNMAY00033,BLMAY00033,PRMAY93131979,"1:1 - one payment, one credit",39971.56,39971.56,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY93131979.
+May 2026,MAY-G0219,TXNMAY00035,BLMAY00035,PRMAY93370583,"1:1 - one payment, one credit",94630.14,94630.14,0.0,Matched,12,Payment reference match,Bank narration shows reference PRMAY93370583.
+May 2026,MAY-G0220,TXNMAY00050,BLMAY00050,PRMAY93638503,"1:1 - one payment, one credit",63105.96,63105.96,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY93638503.
+May 2026,MAY-G0221,TXNMAY00017,BLMAY00017,PRMAY93926371,"1:1 - one payment, one credit",79998.17,79998.17,0.0,Matched,21,Payment reference match,Bank narration shows reference PRMAY93926371.
+May 2026,MAY-G0222,TXNMAY00099,BLMAY00099,PRMAY93940940,"1:1 - one payment, one credit",72259.1,72259.1,0.0,Matched,16,Payment reference match,Bank narration shows reference PRMAY93940940.
+May 2026,MAY-G0223,TXNMAY00089,BLMAY00089,PRMAY93955206,"1:1 - one payment, one credit",25325.22,25325.22,0.0,Matched,24,Payment reference match,Bank narration shows reference PRMAY93955206.
+May 2026,MAY-G0224,TXNMAY00159,BLMAY00159,PRMAY94183695,"1:1 - one payment, one credit",14553.21,14553.21,0.0,Matched,20,Payment reference match,Bank narration shows reference PRMAY94183695.
+May 2026,MAY-G0225,TXNMAY00165,BLMAY00165,PRMAY94676162,"1:1 - one payment, one credit",31958.03,31958.03,0.0,Matched,10,Payment reference match,Bank narration shows reference PRMAY94676162.
+May 2026,MAY-G0226,TXNMAY00111,BLMAY00111,PRMAY95060193,"1:1 - one payment, one credit",82926.88,82926.88,0.0,Matched,8,Payment reference match,Bank narration shows reference PRMAY95060193.
+May 2026,MAY-G0227,TXNMAY00008,BLMAY00008,PRMAY95320121,"1:1 - one payment, one credit",15661.48,15661.48,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY95320121.
+May 2026,MAY-G0228,TXNMAY00040,BLMAY00040,PRMAY95511909,"1:1 - one payment, one credit",15559.89,15559.89,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY95511909.
+May 2026,MAY-G0229,TXNMAY00192,BLMAY00192,PRMAY95565484,"1:1 - one payment, one credit",34673.73,34673.73,0.0,Matched,18,Payment reference match,Bank narration shows reference PRMAY95565484.
+May 2026,MAY-G0230,TXNMAY00199,BLMAY00199,PRMAY95590648,"1:1 - one payment, one credit",75452.73,75452.73,0.0,Matched,25,Payment reference match,Bank narration shows reference PRMAY95590648.
+May 2026,MAY-G0231,TXNMAY00123,BLMAY00123,PRMAY95704631,"1:1 - one payment, one credit",10515.79,10515.79,0.0,Matched,19,Payment reference match,Bank narration shows reference PRMAY95704631.
+May 2026,MAY-G0232,TXNMAY00001,BLMAY00001,PRMAY95822412,"1:1 - one payment, one credit",2619.77,2619.77,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY95822412.
+May 2026,MAY-G0233,TXNMAY00195,BLMAY00195,PRMAY97182566,"1:1 - one payment, one credit",23900.7,23900.7,0.0,Matched,22,Payment reference match,Bank narration shows reference PRMAY97182566.
+May 2026,MAY-G0234,TXNMAY00109,BLMAY00109,PRMAY97219599,"1:1 - one payment, one credit",80954.76,80954.76,0.0,Matched,28,Payment reference match,Bank narration shows reference PRMAY97219599.
+May 2026,MAY-G0235,TXNMAY00098,BLMAY00098,PRMAY98269682,"1:1 - one payment, one credit",44022.26,44022.26,0.0,Matched,13,Payment reference match,Bank narration shows reference PRMAY98269682.
+May 2026,MAY-G0236,TXNMAY00007,BLMAY00007,PRMAY98753260,"1:1 - one payment, one credit",73498.23,73498.23,0.0,Matched,23,Payment reference match,Bank narration shows reference PRMAY98753260.
+May 2026,MAY-G0237,TXNMAY00142,BLMAY00142,PRMAY99927658,"1:1 - one payment, one credit",39174.12,39174.12,0.0,Matched,27,Payment reference match,Bank narration shows reference PRMAY99927658.
+May 2026,MAY-G0238,"TXNMAY00277,TXNMAY00278,TXNMAY00279,TXNMAY00280,TXNMAY00281",BLMAY00232,"PRMAY25060409,PRMAY80890196,PRMAY83717007,PRMAY89968863,PRMAY99133246","N:1 - many payments, one credit",73185.39,73185.39,0.0,Matched,12,Net settlement sweep,Bank rolled 5 payments for merchant M1010 dated 2026-05-19 into 1 credit(s).
+May 2026,MAY-G0239,"TXNMAY00272,TXNMAY00273,TXNMAY00274,TXNMAY00275,TXNMAY00276","BLMAY00230,BLMAY00231","PRMAY25867870,PRMAY49599276,PRMAY50526484,PRMAY58258264,PRMAY64414096","N:M - many payments, many credits",49631.04,49631.04,0.0,Matched,12,Net settlement sweep,Bank rolled 5 payments for merchant M1016 dated 2026-05-19 into 2 credit(s).
+May 2026,MAY-G0240,TXNMAY00299,,PRMAY16292676,1:0 - payment with no credit,89465.31,0.0,89465.31,Open,2,No match found,No bank credit found for this payment.
+May 2026,MAY-G0241,TXNMAY00300,,PRMAY52779814,1:0 - payment with no credit,38932.56,0.0,38932.56,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0242,TXNMAY00301,,PRMAY34679818,1:0 - payment with no credit,23081.74,0.0,23081.74,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0243,TXNMAY00302,,PRMAY29374563,1:0 - payment with no credit,86921.73,0.0,86921.73,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0244,TXNMAY00303,,PRMAY84797762,1:0 - payment with no credit,37052.7,0.0,37052.7,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0245,TXNMAY00304,,PRMAY54327148,1:0 - payment with no credit,87630.92,0.0,87630.92,Open,4,No match found,No bank credit found for this payment.
+May 2026,MAY-G0246,TXNMAY00305,,PRMAY81891784,1:0 - payment with no credit,5133.1,0.0,5133.1,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0247,TXNMAY00306,,PRMAY90922827,1:0 - payment with no credit,83025.54,0.0,83025.54,Open,4,No match found,No bank credit found for this payment.
+May 2026,MAY-G0248,TXNMAY00307,,PRMAY85007641,1:0 - payment with no credit,45672.6,0.0,45672.6,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0249,TXNMAY00308,,PRMAY12058055,1:0 - payment with no credit,89045.89,0.0,89045.89,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0250,TXNMAY00309,,PRMAY42560305,1:0 - payment with no credit,37830.89,0.0,37830.89,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0251,TXNMAY00310,,PRMAY53166435,1:0 - payment with no credit,36317.7,0.0,36317.7,Open,2,No match found,No bank credit found for this payment.
+May 2026,MAY-G0252,TXNMAY00311,,PRMAY45106207,1:0 - payment with no credit,48839.37,0.0,48839.37,Open,2,No match found,No bank credit found for this payment.
+May 2026,MAY-G0253,TXNMAY00312,,PRMAY23234972,1:0 - payment with no credit,72414.34,0.0,72414.34,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0254,TXNMAY00313,,PRMAY59755172,1:0 - payment with no credit,39469.88,0.0,39469.88,Open,2,No match found,No bank credit found for this payment.
+May 2026,MAY-G0255,TXNMAY00314,,PRMAY12176998,1:0 - payment with no credit,52676.27,0.0,52676.27,Open,2,No match found,No bank credit found for this payment.
+May 2026,MAY-G0256,TXNMAY00315,,PRMAY30456313,1:0 - payment with no credit,31504.74,0.0,31504.74,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0257,TXNMAY00316,,PRMAY42981324,1:0 - payment with no credit,52423.38,0.0,52423.38,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0258,TXNMAY00317,,PRMAY75581613,1:0 - payment with no credit,43913.55,0.0,43913.55,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0259,TXNMAY00318,,PRMAY28784915,1:0 - payment with no credit,17688.53,0.0,17688.53,Open,1,No match found,No bank credit found for this payment.
+May 2026,MAY-G0260,TXNMAY00319,,PRMAY14539747,1:0 - payment with no credit,89806.57,0.0,89806.57,Open,4,No match found,No bank credit found for this payment.
+May 2026,MAY-G0261,TXNMAY00320,,PRMAY65350347,1:0 - payment with no credit,80081.11,0.0,80081.11,Open,3,No match found,No bank credit found for this payment.
+May 2026,MAY-G0262,TXNMAY00321,,PRMAY30270856,1:0 - payment with no credit,20973.69,0.0,20973.69,Open,29,No match found,No bank credit found for this payment.
+May 2026,MAY-G0263,TXNMAY00322,,PRMAY18113477,1:0 - payment with no credit,60674.78,0.0,60674.78,Open,20,No match found,No bank credit found for this payment.
+May 2026,MAY-G0264,TXNMAY00323,,PRMAY12111482,1:0 - payment with no credit,50677.13,0.0,50677.13,Open,29,No match found,No bank credit found for this payment.
+May 2026,MAY-G0265,TXNMAY00324,,PRMAY12244945,1:0 - payment with no credit,68677.76,0.0,68677.76,Open,21,No match found,No bank credit found for this payment.
+May 2026,MAY-G0266,TXNMAY00325,,PRMAY77406294,1:0 - payment with no credit,66372.15,0.0,66372.15,Open,16,No match found,No bank credit found for this payment.
+May 2026,MAY-G0267,TXNMAY00326,,PRMAY24363501,1:0 - payment with no credit,49935.52,0.0,49935.52,Open,28,No match found,No bank credit found for this payment.
+May 2026,MAY-G0268,TXNMAY00327,,PRMAY93185576,1:0 - payment with no credit,24166.62,0.0,24166.62,Open,21,No match found,No bank credit found for this payment.
+May 2026,MAY-G0269,TXNMAY00328,,PRMAY63270536,1:0 - payment with no credit,35596.64,0.0,35596.64,Open,28,No match found,No bank credit found for this payment.
+May 2026,MAY-G0270,,BLMAY00248,,0:1 - credit with no payment,0.0,23293.95,-23293.95,Exception,8,No match found,This credit does not match any payment in our books.
+May 2026,MAY-G0271,,BLMAY00249,,0:1 - credit with no payment,0.0,9109.17,-9109.17,Exception,25,No match found,This credit does not match any payment in our books.
+May 2026,MAY-G0272,,BLMAY00250,,0:1 - credit with no payment,0.0,66844.58,-66844.58,Exception,26,No match found,This credit does not match any payment in our books.
+May 2026,MAY-G0273,,BLMAY00251,,0:1 - credit with no payment,0.0,92851.94,-92851.94,Exception,8,No match found,This credit does not match any payment in our books.
+May 2026,MAY-G0274,,BLMAY00252,,0:1 - credit with no payment,0.0,20281.77,-20281.77,Exception,19,No match found,This credit does not match any payment in our books.
+June 2026,JUN-G0001,"TXNJUN00589,TXNJUN00590",,PRJUN39765498,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,16,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+June 2026,JUN-G0002,"TXNJUN00587,TXNJUN00588",,PRJUN22225702,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,23,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+June 2026,JUN-G0003,"TXNJUN00585,TXNJUN00586",,PRJUN55424358,N:0 - entries that cancel out,0.0,0.0,0.0,Exception,10,Internal netting (sale + reversal),Sale and refund on the same reference cancel out. No bank credit is due.
+June 2026,JUN-G0004,"TXNJUN00520,TXNJUN00521,TXNJUN00522,TXNJUN00523,TXNJUN00524,TXNJUN00525,TXNJUN00526",BLJUN00476,"PRJUN19817298,PRJUN21425533,PRJUN34341456,PRJUN39633659,PRJUN56150987,PRJUN83665549,PRJUN96695458","N:1 - many payments, one credit",62420.72,62420.72,0.0,Matched,8,Batch settlement,Bank paid batch BATCHJUN001 as one credit. Bank fees of 452.26 were added back.
+June 2026,JUN-G0005,"TXNJUN00527,TXNJUN00528,TXNJUN00529,TXNJUN00530,TXNJUN00531,TXNJUN00532,TXNJUN00533,TXNJUN00534",BLJUN00477,"PRJUN19369589,PRJUN32634412,PRJUN39732676,PRJUN41478466,PRJUN51027069,PRJUN57934299,PRJUN58921480,PRJUN70484679","N:1 - many payments, one credit",95250.77,95250.77,0.0,Matched,21,Batch settlement,Bank paid batch BATCHJUN002 as one credit. Bank fees of 274.51 were added back.
+June 2026,JUN-G0006,"TXNJUN00535,TXNJUN00536,TXNJUN00537,TXNJUN00538,TXNJUN00539,TXNJUN00540",BLJUN00478,"PRJUN12500515,PRJUN21002322,PRJUN24607269,PRJUN28790705,PRJUN58149482,PRJUN94103363","N:1 - many payments, one credit",70172.53,70172.53,0.0,Matched,6,Batch settlement,Bank paid batch BATCHJUN003 as one credit.
+June 2026,JUN-G0007,"TXNJUN00541,TXNJUN00542,TXNJUN00543,TXNJUN00544,TXNJUN00545",BLJUN00479,"PRJUN29949181,PRJUN77259613,PRJUN77399750,PRJUN82943217,PRJUN89134873","N:1 - many payments, one credit",44009.0,44009.0,0.0,Matched,9,Batch settlement,Bank paid batch BATCHJUN004 as one credit.
+June 2026,JUN-G0008,"TXNJUN00546,TXNJUN00547,TXNJUN00548,TXNJUN00549,TXNJUN00550",BLJUN00480,"PRJUN31370471,PRJUN59584751,PRJUN74894729,PRJUN75450221,PRJUN85942072","N:1 - many payments, one credit",32645.62,32645.62,0.0,Matched,8,Batch settlement,Bank paid batch BATCHJUN005 as one credit.
+June 2026,JUN-G0009,"TXNJUN00551,TXNJUN00552,TXNJUN00553,TXNJUN00554,TXNJUN00555,TXNJUN00556,TXNJUN00557,TXNJUN00558",BLJUN00481,"PRJUN20447168,PRJUN39917031,PRJUN45341684,PRJUN56309454,PRJUN60803895,PRJUN71021210,PRJUN79977486,PRJUN97043518","N:1 - many payments, one credit",63663.38,63663.38,0.0,Matched,21,Batch settlement,Bank paid batch BATCHJUN006 as one credit.
+June 2026,JUN-G0010,"TXNJUN00559,TXNJUN00560,TXNJUN00561,TXNJUN00562",BLJUN00482,"PRJUN25882013,PRJUN35086055,PRJUN69042204,PRJUN79060560","N:1 - many payments, one credit",34872.42,34872.42,0.0,Matched,8,Batch settlement,Bank paid batch BATCHJUN007 as one credit.
+June 2026,JUN-G0011,"TXNJUN00563,TXNJUN00564,TXNJUN00565,TXNJUN00566,TXNJUN00567,TXNJUN00568,TXNJUN00569",BLJUN00483,"PRJUN15260108,PRJUN15790734,PRJUN31626387,PRJUN31642106,PRJUN44663022,PRJUN64419425,PRJUN98817918","N:1 - many payments, one credit",59801.16,59801.16,0.0,Matched,6,Batch settlement,Bank paid batch BATCHJUN008 as one credit.
+June 2026,JUN-G0012,TXNJUN00515,"BLJUN00462,BLJUN00463,BLJUN00464",PRJUN97446634,"1:N - one payment, many credits",81111.58,81111.58,0.0,Matched,22,Part settlement,Bank paid this in 3 parts.
+June 2026,JUN-G0013,TXNJUN00518,"BLJUN00471,BLJUN00472",PRJUN48901209,"1:N - one payment, many credits",62521.4,62521.4,0.0,Matched,19,Part settlement,Bank paid this in 2 parts.
+June 2026,JUN-G0014,TXNJUN00517,"BLJUN00468,BLJUN00469,BLJUN00470",PRJUN94586329,"1:N - one payment, many credits",65312.34,65312.34,0.0,Matched,16,Part settlement,Bank paid this in 3 parts.
+June 2026,JUN-G0015,TXNJUN00519,"BLJUN00473,BLJUN00474,BLJUN00475",PRJUN62478133,"1:N - one payment, many credits",116810.74,116810.74,0.0,Matched,11,Part settlement,Bank paid this in 3 parts.
+June 2026,JUN-G0016,TXNJUN00516,"BLJUN00465,BLJUN00466,BLJUN00467",PRJUN30636590,"1:N - one payment, many credits",97349.46,97349.46,0.0,Matched,28,Part settlement,Bank paid this in 3 parts.
+June 2026,JUN-G0017,TXNJUN00514,"BLJUN00460,BLJUN00461",PRJUN53075436,"1:N - one payment, many credits",70870.07,70870.07,0.0,Matched,16,Part settlement,Bank paid this in 2 parts.
+June 2026,JUN-G0018,TXNJUN00421,BLJUN00367,PRJUN10241310,"1:1 - one payment, one credit",90139.15,90139.15,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN10241310.
+June 2026,JUN-G0019,TXNJUN00494,BLJUN00440,PRJUN10294869,"1:1 - one payment, one credit",33899.42,33899.42,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN10294869.
+June 2026,JUN-G0020,TXNJUN00467,BLJUN00413,PRJUN10553491,"1:1 - one payment, one credit",69758.91,69758.91,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN10553491.
+June 2026,JUN-G0021,TXNJUN00581,BLJUN00489,PRJUN10954835,"1:1 - one payment, one credit",49760.72,49760.72,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN10954835.
+June 2026,JUN-G0022,,BLJUN00490,,0:1 - credit with no payment,0.0,49760.72,-49760.72,Exception,7,Payment reference match,Reference PRJUN10954835 was already paid in full. This credit is a repeat.
+June 2026,JUN-G0023,TXNJUN00341,BLJUN00287,PRJUN11415698,"1:1 - one payment, one credit",24765.46,24765.46,0.0,Matched,26,Payment reference match,Bank narration shows reference PRJUN11415698.
+June 2026,JUN-G0024,TXNJUN00404,BLJUN00350,PRJUN11604831,"1:1 - one payment, one credit",78927.78,78927.78,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN11604831.
+June 2026,JUN-G0025,TXNJUN00388,BLJUN00334,PRJUN11649277,"1:1 - one payment, one credit",4606.75,4606.75,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN11649277.
+June 2026,JUN-G0026,TXNJUN00440,BLJUN00386,PRJUN11659440,"1:1 - one payment, one credit",59284.74,59284.74,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN11659440.
+June 2026,JUN-G0027,TXNJUN00477,BLJUN00423,PRJUN11711195,"1:1 - one payment, one credit",8683.02,8683.02,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN11711195.
+June 2026,JUN-G0028,TXNJUN00379,BLJUN00325,PRJUN12240013,"1:1 - one payment, one credit",6648.71,6648.71,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN12240013.
+June 2026,JUN-G0029,TXNJUN00470,BLJUN00416,PRJUN12566878,"1:1 - one payment, one credit",21504.45,21504.45,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN12566878.
+June 2026,JUN-G0030,TXNJUN00427,BLJUN00373,PRJUN12694823,"1:1 - one payment, one credit",24991.85,24991.85,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN12694823.
+June 2026,JUN-G0031,TXNJUN00342,BLJUN00288,PRJUN13296743,"1:1 - one payment, one credit",10156.05,10156.05,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN13296743.
+June 2026,JUN-G0032,TXNJUN00457,BLJUN00403,PRJUN13416548,"1:1 - one payment, one credit",47376.08,47376.08,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN13416548.
+June 2026,JUN-G0033,TXNJUN00346,BLJUN00292,PRJUN13918120,"1:1 - one payment, one credit",58436.63,58436.63,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN13918120.
+June 2026,JUN-G0034,TXNJUN00449,BLJUN00395,PRJUN14102122,"1:1 - one payment, one credit",35541.23,35541.23,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN14102122.
+June 2026,JUN-G0035,TXNJUN00403,BLJUN00349,PRJUN14171767,"1:1 - one payment, one credit",81223.47,81223.47,0.0,Matched,17,Payment reference match,Bank narration shows reference PRJUN14171767.
+June 2026,JUN-G0036,TXNJUN00466,BLJUN00412,PRJUN15063406,"1:1 - one payment, one credit",19144.5,19144.5,0.0,Matched,12,Payment reference match,Bank narration shows reference PRJUN15063406.
+June 2026,JUN-G0037,TXNJUN00438,BLJUN00384,PRJUN15727862,"1:1 - one payment, one credit",7675.42,7675.42,0.0,Matched,16,Payment reference match,Bank narration shows reference PRJUN15727862.
+June 2026,JUN-G0038,TXNJUN00396,BLJUN00342,PRJUN15892193,"1:1 - one payment, one credit",85267.99,85267.99,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN15892193.
+June 2026,JUN-G0039,TXNJUN00444,BLJUN00390,PRJUN16615722,"1:1 - one payment, one credit",45276.92,45276.92,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN16615722.
+June 2026,JUN-G0040,TXNJUN00431,BLJUN00377,PRJUN17315517,"1:1 - one payment, one credit",611.53,611.53,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN17315517.
+June 2026,JUN-G0041,TXNJUN00448,BLJUN00394,PRJUN17734634,"1:1 - one payment, one credit",3383.48,3383.48,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN17734634.
+June 2026,JUN-G0042,TXNJUN00483,BLJUN00429,PRJUN17871385,"1:1 - one payment, one credit",10076.82,10076.82,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN17871385.
+June 2026,JUN-G0043,TXNJUN00504,BLJUN00450,PRJUN18325904,"1:1 - one payment, one credit",74567.86,74567.86,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN18325904.
+June 2026,JUN-G0044,TXNJUN00439,BLJUN00385,PRJUN18994192,"1:1 - one payment, one credit",37022.39,37022.39,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN18994192.
+June 2026,JUN-G0045,TXNJUN00399,BLJUN00345,PRJUN20024377,"1:1 - one payment, one credit",13146.6,13146.6,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN20024377.
+June 2026,JUN-G0046,TXNJUN00416,BLJUN00362,PRJUN22114140,"1:1 - one payment, one credit",22291.06,22291.06,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN22114140.
+June 2026,JUN-G0047,TXNJUN00402,BLJUN00348,PRJUN22242388,"1:1 - one payment, one credit",23768.73,23768.73,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN22242388.
+June 2026,JUN-G0048,TXNJUN00512,BLJUN00458,PRJUN22340723,"1:1 - one payment, one credit",21208.52,21208.52,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN22340723.
+June 2026,JUN-G0049,TXNJUN00505,BLJUN00451,PRJUN23754633,"1:1 - one payment, one credit",82496.35,82496.35,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN23754633.
+June 2026,JUN-G0050,TXNJUN00395,BLJUN00341,PRJUN23951801,"1:1 - one payment, one credit",50449.92,50449.92,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN23951801.
+June 2026,JUN-G0051,TXNJUN00441,BLJUN00387,PRJUN24178065,"1:1 - one payment, one credit",74111.86,74111.86,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN24178065.
+June 2026,JUN-G0052,TXNJUN00503,BLJUN00449,PRJUN24290224,"1:1 - one payment, one credit",36337.46,36337.46,0.0,Matched,29,Payment reference match,Bank narration shows reference PRJUN24290224.
+June 2026,JUN-G0053,TXNJUN00418,BLJUN00364,PRJUN24887509,"1:1 - one payment, one credit",81798.43,81798.43,0.0,Matched,13,Payment reference match,Bank narration shows reference PRJUN24887509.
+June 2026,JUN-G0054,TXNJUN00377,BLJUN00323,PRJUN25132198,"1:1 - one payment, one credit",47585.45,47585.45,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN25132198.
+June 2026,JUN-G0055,TXNJUN00502,BLJUN00448,PRJUN25489430,"1:1 - one payment, one credit",33624.53,33624.53,0.0,Matched,5,Payment reference match,Bank narration shows reference PRJUN25489430.
+June 2026,JUN-G0056,TXNJUN00480,BLJUN00426,PRJUN25555976,"1:1 - one payment, one credit",80905.55,80905.55,0.0,Matched,26,Payment reference match,Bank narration shows reference PRJUN25555976.
+June 2026,JUN-G0057,TXNJUN00461,BLJUN00407,PRJUN25808361,"1:1 - one payment, one credit",5335.89,5335.89,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN25808361.
+June 2026,JUN-G0058,TXNJUN00385,BLJUN00331,PRJUN25845304,"1:1 - one payment, one credit",85515.28,85515.28,0.0,Matched,5,Payment reference match,Bank narration shows reference PRJUN25845304.
+June 2026,JUN-G0059,TXNJUN00401,BLJUN00347,PRJUN26094525,"1:1 - one payment, one credit",15184.06,15184.06,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN26094525.
+June 2026,JUN-G0060,TXNJUN00471,BLJUN00417,PRJUN26530521,"1:1 - one payment, one credit",67627.68,67627.68,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN26530521.
+June 2026,JUN-G0061,TXNJUN00473,BLJUN00419,PRJUN26588648,"1:1 - one payment, one credit",24196.95,24196.95,0.0,Matched,12,Payment reference match,Bank narration shows reference PRJUN26588648.
+June 2026,JUN-G0062,TXNJUN00465,BLJUN00411,PRJUN27368573,"1:1 - one payment, one credit",41344.16,41344.16,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN27368573.
+June 2026,JUN-G0063,TXNJUN00417,BLJUN00363,PRJUN27514010,"1:1 - one payment, one credit",68179.84,68179.84,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN27514010.
+June 2026,JUN-G0064,TXNJUN00378,BLJUN00324,PRJUN27714442,"1:1 - one payment, one credit",81812.13,81812.13,0.0,Matched,17,Payment reference match,Bank narration shows reference PRJUN27714442.
+June 2026,JUN-G0065,TXNJUN00452,BLJUN00398,PRJUN27758896,"1:1 - one payment, one credit",16660.76,16660.76,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN27758896.
+June 2026,JUN-G0066,TXNJUN00584,BLJUN00495,PRJUN28531242,"1:1 - one payment, one credit",71105.39,71105.39,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN28531242.
+June 2026,JUN-G0067,,BLJUN00496,,0:1 - credit with no payment,0.0,71105.39,-71105.39,Exception,22,Payment reference match,Reference PRJUN28531242 was already paid in full. This credit is a repeat.
+June 2026,JUN-G0068,TXNJUN00495,BLJUN00441,PRJUN28850770,"1:1 - one payment, one credit",70602.91,70602.91,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN28850770.
+June 2026,JUN-G0069,TXNJUN00510,BLJUN00456,PRJUN30777669,"1:1 - one payment, one credit",14813.4,14813.4,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN30777669.
+June 2026,JUN-G0070,TXNJUN00367,BLJUN00313,PRJUN31204188,"1:1 - one payment, one credit",43505.09,43505.09,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN31204188.
+June 2026,JUN-G0071,TXNJUN00447,BLJUN00393,PRJUN31336920,"1:1 - one payment, one credit",29728.91,29728.91,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN31336920.
+June 2026,JUN-G0072,TXNJUN00413,BLJUN00359,PRJUN31424479,"1:1 - one payment, one credit",23734.46,23734.46,0.0,Matched,26,Payment reference match,Bank narration shows reference PRJUN31424479.
+June 2026,JUN-G0073,TXNJUN00428,BLJUN00374,PRJUN31596235,"1:1 - one payment, one credit",7356.48,7356.48,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN31596235.
+June 2026,JUN-G0074,TXNJUN00451,BLJUN00397,PRJUN31865061,"1:1 - one payment, one credit",74138.91,74138.91,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN31865061.
+June 2026,JUN-G0075,TXNJUN00384,BLJUN00330,PRJUN31989243,"1:1 - one payment, one credit",90548.29,90548.29,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN31989243.
+June 2026,JUN-G0076,TXNJUN00459,BLJUN00405,PRJUN32815223,"1:1 - one payment, one credit",83297.88,83297.88,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN32815223.
+June 2026,JUN-G0077,TXNJUN00414,BLJUN00360,PRJUN33315234,"1:1 - one payment, one credit",22663.22,22663.22,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN33315234.
+June 2026,JUN-G0078,TXNJUN00434,BLJUN00380,PRJUN35042738,"1:1 - one payment, one credit",4477.45,4477.45,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN35042738.
+June 2026,JUN-G0079,TXNJUN00456,BLJUN00402,PRJUN35281262,"1:1 - one payment, one credit",49263.57,49263.57,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN35281262.
+June 2026,JUN-G0080,TXNJUN00393,BLJUN00339,PRJUN36229153,"1:1 - one payment, one credit",85567.0,85567.0,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN36229153.
+June 2026,JUN-G0081,TXNJUN00475,BLJUN00421,PRJUN36661903,"1:1 - one payment, one credit",19176.25,19176.25,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN36661903.
+June 2026,JUN-G0082,TXNJUN00381,BLJUN00327,PRJUN37272705,"1:1 - one payment, one credit",51072.97,51072.97,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN37272705.
+June 2026,JUN-G0083,TXNJUN00432,BLJUN00378,PRJUN37776759,"1:1 - one payment, one credit",60718.56,60718.56,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN37776759.
+June 2026,JUN-G0084,TXNJUN00337,BLJUN00283,PRJUN38138531,"1:1 - one payment, one credit",75830.7,75830.7,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN38138531.
+June 2026,JUN-G0085,TXNJUN00424,BLJUN00370,PRJUN38143348,"1:1 - one payment, one credit",65928.43,65928.43,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN38143348.
+June 2026,JUN-G0086,TXNJUN00347,BLJUN00293,PRJUN38829445,"1:1 - one payment, one credit",26623.17,26623.17,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN38829445.
+June 2026,JUN-G0087,TXNJUN00374,BLJUN00320,PRJUN39158087,"1:1 - one payment, one credit",85202.18,85202.18,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN39158087.
+June 2026,JUN-G0088,TXNJUN00420,BLJUN00366,PRJUN39962391,"1:1 - one payment, one credit",56053.03,56053.03,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN39962391.
+June 2026,JUN-G0089,TXNJUN00369,BLJUN00315,PRJUN41426254,"1:1 - one payment, one credit",62357.23,62357.23,0.0,Matched,16,Payment reference match,Bank narration shows reference PRJUN41426254.
+June 2026,JUN-G0090,TXNJUN00423,BLJUN00369,PRJUN41943272,"1:1 - one payment, one credit",93330.47,93330.47,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN41943272.
+June 2026,JUN-G0091,TXNJUN00350,BLJUN00296,PRJUN42020689,"1:1 - one payment, one credit",11330.91,11330.91,0.0,Matched,20,Payment reference match,Bank narration shows reference PRJUN42020689.
+June 2026,JUN-G0092,TXNJUN00382,BLJUN00328,PRJUN42029368,"1:1 - one payment, one credit",23414.46,23414.46,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN42029368.
+June 2026,JUN-G0093,TXNJUN00338,BLJUN00284,PRJUN42483531,"1:1 - one payment, one credit",62658.32,62658.32,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN42483531.
+June 2026,JUN-G0094,TXNJUN00362,BLJUN00308,PRJUN43511112,"1:1 - one payment, one credit",67654.66,67654.66,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN43511112.
+June 2026,JUN-G0095,TXNJUN00507,BLJUN00453,PRJUN43734435,"1:1 - one payment, one credit",59048.22,59048.22,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN43734435.
+June 2026,JUN-G0096,TXNJUN00446,BLJUN00392,PRJUN46160937,"1:1 - one payment, one credit",39739.22,39739.22,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN46160937.
+June 2026,JUN-G0097,TXNJUN00390,BLJUN00336,PRJUN46407626,"1:1 - one payment, one credit",54403.03,54403.03,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN46407626.
+June 2026,JUN-G0098,TXNJUN00500,BLJUN00446,PRJUN46721417,"1:1 - one payment, one credit",91550.49,91550.49,0.0,Matched,17,Payment reference match,Bank narration shows reference PRJUN46721417.
+June 2026,JUN-G0099,TXNJUN00408,BLJUN00354,PRJUN46907428,"1:1 - one payment, one credit",42509.58,42509.58,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN46907428.
+June 2026,JUN-G0100,TXNJUN00445,BLJUN00391,PRJUN47627490,"1:1 - one payment, one credit",81567.75,81567.75,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN47627490.
+June 2026,JUN-G0101,TXNJUN00412,BLJUN00358,PRJUN47706144,"1:1 - one payment, one credit",76869.96,76869.96,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN47706144.
+June 2026,JUN-G0102,TXNJUN00352,BLJUN00298,PRJUN48766747,"1:1 - one payment, one credit",17977.59,17977.59,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN48766747.
+June 2026,JUN-G0103,TXNJUN00398,BLJUN00344,PRJUN49148093,"1:1 - one payment, one credit",80874.07,80874.07,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN49148093.
+June 2026,JUN-G0104,TXNJUN00355,BLJUN00301,PRJUN49203644,"1:1 - one payment, one credit",26292.31,26292.31,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN49203644.
+June 2026,JUN-G0105,TXNJUN00508,BLJUN00454,PRJUN49483865,"1:1 - one payment, one credit",17061.1,17061.1,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN49483865.
+June 2026,JUN-G0106,TXNJUN00476,BLJUN00422,PRJUN49641367,"1:1 - one payment, one credit",3983.69,3983.69,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN49641367.
+June 2026,JUN-G0107,TXNJUN00334,BLJUN00280,PRJUN50323741,"1:1 - one payment, one credit",57404.27,57404.27,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN50323741.
+June 2026,JUN-G0108,TXNJUN00419,BLJUN00365,PRJUN50502233,"1:1 - one payment, one credit",13178.8,13178.8,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN50502233.
+June 2026,JUN-G0109,TXNJUN00383,BLJUN00329,PRJUN51512209,"1:1 - one payment, one credit",70525.46,70525.46,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN51512209.
+June 2026,JUN-G0110,TXNJUN00372,BLJUN00318,PRJUN52057323,"1:1 - one payment, one credit",83723.71,83723.71,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN52057323.
+June 2026,JUN-G0111,TXNJUN00400,BLJUN00346,PRJUN52148834,"1:1 - one payment, one credit",11689.81,11689.81,0.0,Matched,16,Payment reference match,Bank narration shows reference PRJUN52148834.
+June 2026,JUN-G0112,TXNJUN00375,BLJUN00321,PRJUN52211967,"1:1 - one payment, one credit",23727.76,23727.76,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN52211967.
+June 2026,JUN-G0113,TXNJUN00463,BLJUN00409,PRJUN52464268,"1:1 - one payment, one credit",17338.8,17338.8,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN52464268.
+June 2026,JUN-G0114,TXNJUN00511,BLJUN00457,PRJUN52662313,"1:1 - one payment, one credit",21091.4,21091.4,0.0,Matched,13,Payment reference match,Bank narration shows reference PRJUN52662313.
+June 2026,JUN-G0115,TXNJUN00344,BLJUN00290,PRJUN52803305,"1:1 - one payment, one credit",28700.02,28700.02,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN52803305.
+June 2026,JUN-G0116,TXNJUN00335,BLJUN00281,PRJUN52833932,"1:1 - one payment, one credit",69879.35,69879.35,0.0,Matched,20,Payment reference match,Bank narration shows reference PRJUN52833932.
+June 2026,JUN-G0117,TXNJUN00488,BLJUN00434,PRJUN53034742,"1:1 - one payment, one credit",31602.29,31602.29,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN53034742.
+June 2026,JUN-G0118,TXNJUN00348,BLJUN00294,PRJUN53752954,"1:1 - one payment, one credit",43602.9,43602.9,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN53752954.
+June 2026,JUN-G0119,TXNJUN00406,BLJUN00352,PRJUN54499873,"1:1 - one payment, one credit",4295.48,4295.48,0.0,Matched,26,Payment reference match,Bank narration shows reference PRJUN54499873.
+June 2026,JUN-G0120,TXNJUN00493,BLJUN00439,PRJUN54556611,"1:1 - one payment, one credit",72962.7,72962.7,0.0,Matched,12,Payment reference match,Bank narration shows reference PRJUN54556611.
+June 2026,JUN-G0121,TXNJUN00343,BLJUN00289,PRJUN56045630,"1:1 - one payment, one credit",74559.58,74559.58,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN56045630.
+June 2026,JUN-G0122,TXNJUN00411,BLJUN00357,PRJUN56175477,"1:1 - one payment, one credit",47851.76,47851.76,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN56175477.
+June 2026,JUN-G0123,TXNJUN00450,BLJUN00396,PRJUN56204319,"1:1 - one payment, one credit",79617.69,79617.69,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN56204319.
+June 2026,JUN-G0124,TXNJUN00358,BLJUN00304,PRJUN56785209,"1:1 - one payment, one credit",41851.87,41851.87,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN56785209.
+June 2026,JUN-G0125,TXNJUN00349,BLJUN00295,PRJUN57242616,"1:1 - one payment, one credit",58745.11,58745.11,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN57242616.
+June 2026,JUN-G0126,TXNJUN00460,BLJUN00406,PRJUN57685330,"1:1 - one payment, one credit",70763.89,70763.89,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN57685330.
+June 2026,JUN-G0127,TXNJUN00484,BLJUN00430,PRJUN58130331,"1:1 - one payment, one credit",2980.34,2980.34,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN58130331.
+June 2026,JUN-G0128,TXNJUN00582,BLJUN00491,PRJUN58623028,"1:1 - one payment, one credit",14915.27,14915.27,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN58623028.
+June 2026,JUN-G0129,,BLJUN00492,,0:1 - credit with no payment,0.0,14915.27,-14915.27,Exception,22,Payment reference match,Reference PRJUN58623028 was already paid in full. This credit is a repeat.
+June 2026,JUN-G0130,TXNJUN00387,BLJUN00333,PRJUN59350218,"1:1 - one payment, one credit",24422.25,24422.25,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN59350218.
+June 2026,JUN-G0131,TXNJUN00392,BLJUN00338,PRJUN59515518,"1:1 - one payment, one credit",27878.63,27878.63,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN59515518.
+June 2026,JUN-G0132,TXNJUN00330,BLJUN00276,PRJUN61100987,"1:1 - one payment, one credit",13405.1,13405.1,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN61100987.
+June 2026,JUN-G0133,TXNJUN00329,BLJUN00275,PRJUN61705758,"1:1 - one payment, one credit",27902.54,27902.54,0.0,Matched,29,Payment reference match,Bank narration shows reference PRJUN61705758.
+June 2026,JUN-G0134,TXNJUN00496,BLJUN00442,PRJUN62733674,"1:1 - one payment, one credit",43555.11,43555.11,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN62733674.
+June 2026,JUN-G0135,TXNJUN00336,BLJUN00282,PRJUN62738860,"1:1 - one payment, one credit",11040.87,11040.87,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN62738860.
+June 2026,JUN-G0136,TXNJUN00437,BLJUN00383,PRJUN62989744,"1:1 - one payment, one credit",3540.52,3540.52,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN62989744.
+June 2026,JUN-G0137,TXNJUN00333,BLJUN00279,PRJUN63108878,"1:1 - one payment, one credit",79992.87,79992.87,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN63108878.
+June 2026,JUN-G0138,TXNJUN00482,BLJUN00428,PRJUN63720675,"1:1 - one payment, one credit",26006.19,26006.19,0.0,Matched,15,Payment reference match,Bank narration shows reference PRJUN63720675.
+June 2026,JUN-G0139,TXNJUN00489,BLJUN00435,PRJUN64126921,"1:1 - one payment, one credit",7719.2,7719.2,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN64126921.
+June 2026,JUN-G0140,TXNJUN00583,BLJUN00493,PRJUN65462544,"1:1 - one payment, one credit",74513.95,74513.95,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN65462544.
+June 2026,JUN-G0141,,BLJUN00494,,0:1 - credit with no payment,0.0,74513.95,-74513.95,Exception,8,Payment reference match,Reference PRJUN65462544 was already paid in full. This credit is a repeat.
+June 2026,JUN-G0142,TXNJUN00354,BLJUN00300,PRJUN65784972,"1:1 - one payment, one credit",79829.75,79829.75,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN65784972.
+June 2026,JUN-G0143,TXNJUN00371,BLJUN00317,PRJUN66682016,"1:1 - one payment, one credit",12773.6,12773.6,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN66682016.
+June 2026,JUN-G0144,TXNJUN00380,BLJUN00326,PRJUN66851305,"1:1 - one payment, one credit",38365.78,38365.78,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN66851305.
+June 2026,JUN-G0145,TXNJUN00453,BLJUN00399,PRJUN66882385,"1:1 - one payment, one credit",80937.79,80937.79,0.0,Matched,17,Payment reference match,Bank narration shows reference PRJUN66882385.
+June 2026,JUN-G0146,TXNJUN00580,BLJUN00487,PRJUN67108220,"1:1 - one payment, one credit",24365.58,24365.58,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN67108220.
+June 2026,JUN-G0147,,BLJUN00488,,0:1 - credit with no payment,0.0,24365.58,-24365.58,Exception,21,Payment reference match,Reference PRJUN67108220 was already paid in full. This credit is a repeat.
+June 2026,JUN-G0148,TXNJUN00509,BLJUN00455,PRJUN67513345,"1:1 - one payment, one credit",52987.72,52987.72,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN67513345.
+June 2026,JUN-G0149,TXNJUN00365,BLJUN00311,PRJUN67665720,"1:1 - one payment, one credit",47124.24,47124.24,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN67665720.
+June 2026,JUN-G0150,TXNJUN00486,BLJUN00432,PRJUN68095862,"1:1 - one payment, one credit",69100.27,69100.27,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN68095862.
+June 2026,JUN-G0151,TXNJUN00469,BLJUN00415,PRJUN68205561,"1:1 - one payment, one credit",94571.01,94571.01,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN68205561.
+June 2026,JUN-G0152,TXNJUN00331,BLJUN00277,PRJUN68341261,"1:1 - one payment, one credit",40149.45,40149.45,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN68341261.
+June 2026,JUN-G0153,TXNJUN00481,BLJUN00427,PRJUN68749047,"1:1 - one payment, one credit",25672.32,25672.32,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN68749047.
+June 2026,JUN-G0154,TXNJUN00425,BLJUN00371,PRJUN68816911,"1:1 - one payment, one credit",40012.14,40012.14,0.0,Matched,6,Payment reference match,Bank narration shows reference PRJUN68816911.
+June 2026,JUN-G0155,TXNJUN00592,BLJUN00498,PRJUN68917831,"1:1 - one payment, one credit",16093.9,15813.99,279.91,Partial Match,26,Payment reference match,Bank narration shows reference PRJUN68917831. Bank paid 279.91 less than our books.
+June 2026,JUN-G0156,TXNJUN00485,BLJUN00431,PRJUN69148126,"1:1 - one payment, one credit",6251.09,6251.09,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN69148126.
+June 2026,JUN-G0157,TXNJUN00490,BLJUN00436,PRJUN70004467,"1:1 - one payment, one credit",11497.47,11497.47,0.0,Matched,19,Payment reference match,Bank narration shows reference PRJUN70004467.
+June 2026,JUN-G0158,TXNJUN00363,BLJUN00309,PRJUN70665302,"1:1 - one payment, one credit",60286.23,60286.23,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN70665302.
+June 2026,JUN-G0159,TXNJUN00464,BLJUN00410,PRJUN70673557,"1:1 - one payment, one credit",20088.98,20088.98,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN70673557.
+June 2026,JUN-G0160,TXNJUN00497,BLJUN00443,PRJUN71389561,"1:1 - one payment, one credit",56087.71,56087.71,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN71389561.
+June 2026,JUN-G0161,TXNJUN00479,BLJUN00425,PRJUN72314252,"1:1 - one payment, one credit",9706.89,9706.89,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN72314252.
+June 2026,JUN-G0162,TXNJUN00391,BLJUN00337,PRJUN72423883,"1:1 - one payment, one credit",73541.73,73541.73,0.0,Matched,20,Payment reference match,Bank narration shows reference PRJUN72423883.
+June 2026,JUN-G0163,TXNJUN00433,BLJUN00379,PRJUN73209094,"1:1 - one payment, one credit",85039.64,85039.64,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN73209094.
+June 2026,JUN-G0164,TXNJUN00426,BLJUN00372,PRJUN74355957,"1:1 - one payment, one credit",61929.37,61929.37,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN74355957.
+June 2026,JUN-G0165,TXNJUN00455,BLJUN00401,PRJUN74657836,"1:1 - one payment, one credit",32112.88,32112.88,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN74657836.
+June 2026,JUN-G0166,TXNJUN00353,BLJUN00299,PRJUN75043108,"1:1 - one payment, one credit",18738.42,18738.42,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN75043108.
+June 2026,JUN-G0167,TXNJUN00407,BLJUN00353,PRJUN76588957,"1:1 - one payment, one credit",36513.61,36513.61,0.0,Matched,29,Payment reference match,Bank narration shows reference PRJUN76588957.
+June 2026,JUN-G0168,TXNJUN00468,BLJUN00414,PRJUN77556678,"1:1 - one payment, one credit",29254.4,29254.4,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN77556678.
+June 2026,JUN-G0169,TXNJUN00397,BLJUN00343,PRJUN77837366,"1:1 - one payment, one credit",60626.19,60626.19,0.0,Matched,25,Payment reference match,Bank narration shows reference PRJUN77837366.
+June 2026,JUN-G0170,TXNJUN00498,BLJUN00444,PRJUN78227286,"1:1 - one payment, one credit",87530.13,87530.13,0.0,Matched,5,Payment reference match,Bank narration shows reference PRJUN78227286.
+June 2026,JUN-G0171,TXNJUN00478,BLJUN00424,PRJUN78679929,"1:1 - one payment, one credit",68807.65,68807.65,0.0,Matched,27,Payment reference match,Bank narration shows reference PRJUN78679929.
+June 2026,JUN-G0172,TXNJUN00361,BLJUN00307,PRJUN79043610,"1:1 - one payment, one credit",77488.39,77488.39,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN79043610.
+June 2026,JUN-G0173,TXNJUN00376,BLJUN00322,PRJUN79491111,"1:1 - one payment, one credit",48527.26,48527.26,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN79491111.
+June 2026,JUN-G0174,TXNJUN00462,BLJUN00408,PRJUN81113720,"1:1 - one payment, one credit",39391.91,39391.91,0.0,Matched,20,Payment reference match,Bank narration shows reference PRJUN81113720.
+June 2026,JUN-G0175,TXNJUN00360,BLJUN00306,PRJUN81441519,"1:1 - one payment, one credit",56802.27,56802.27,0.0,Matched,21,Payment reference match,Bank narration shows reference PRJUN81441519.
+June 2026,JUN-G0176,TXNJUN00436,BLJUN00382,PRJUN81875527,"1:1 - one payment, one credit",82388.21,82388.21,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN81875527.
+June 2026,JUN-G0177,TXNJUN00394,BLJUN00340,PRJUN82684966,"1:1 - one payment, one credit",60505.49,60505.49,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN82684966.
+June 2026,JUN-G0178,TXNJUN00339,BLJUN00285,PRJUN82966824,"1:1 - one payment, one credit",75170.81,75170.81,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN82966824.
+June 2026,JUN-G0179,TXNJUN00357,BLJUN00303,PRJUN83330295,"1:1 - one payment, one credit",94031.25,94031.25,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN83330295.
+June 2026,JUN-G0180,TXNJUN00356,BLJUN00302,PRJUN83782999,"1:1 - one payment, one credit",10976.74,10976.74,0.0,Matched,13,Payment reference match,Bank narration shows reference PRJUN83782999.
+June 2026,JUN-G0181,TXNJUN00409,BLJUN00355,PRJUN83912181,"1:1 - one payment, one credit",6027.77,6027.77,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN83912181.
+June 2026,JUN-G0182,TXNJUN00389,BLJUN00335,PRJUN84204255,"1:1 - one payment, one credit",70428.09,70428.09,0.0,Matched,7,Payment reference match,Bank narration shows reference PRJUN84204255.
+June 2026,JUN-G0183,TXNJUN00501,BLJUN00447,PRJUN84300459,"1:1 - one payment, one credit",20843.21,20843.21,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN84300459.
+June 2026,JUN-G0184,TXNJUN00491,BLJUN00437,PRJUN84776858,"1:1 - one payment, one credit",266.08,266.08,0.0,Matched,12,Payment reference match,Bank narration shows reference PRJUN84776858.
+June 2026,JUN-G0185,TXNJUN00345,BLJUN00291,PRJUN85141654,"1:1 - one payment, one credit",91064.33,91064.33,0.0,Matched,16,Payment reference match,Bank narration shows reference PRJUN85141654.
+June 2026,JUN-G0186,TXNJUN00415,BLJUN00361,PRJUN85579195,"1:1 - one payment, one credit",79527.03,79527.03,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN85579195.
+June 2026,JUN-G0187,TXNJUN00373,BLJUN00319,PRJUN85603667,"1:1 - one payment, one credit",58077.75,58077.75,0.0,Matched,29,Payment reference match,Bank narration shows reference PRJUN85603667.
+June 2026,JUN-G0188,TXNJUN00435,BLJUN00381,PRJUN85731895,"1:1 - one payment, one credit",14569.63,14569.63,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN85731895.
+June 2026,JUN-G0189,TXNJUN00366,BLJUN00312,PRJUN85986307,"1:1 - one payment, one credit",74941.77,74941.77,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN85986307.
+June 2026,JUN-G0190,TXNJUN00458,BLJUN00404,PRJUN86778235,"1:1 - one payment, one credit",32765.08,32765.08,0.0,Matched,23,Payment reference match,Bank narration shows reference PRJUN86778235.
+June 2026,JUN-G0191,TXNJUN00351,BLJUN00297,PRJUN87149161,"1:1 - one payment, one credit",40332.92,40332.92,0.0,Matched,17,Payment reference match,Bank narration shows reference PRJUN87149161.
+June 2026,JUN-G0192,TXNJUN00386,BLJUN00332,PRJUN87396877,"1:1 - one payment, one credit",7552.39,7552.39,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN87396877.
+June 2026,JUN-G0193,TXNJUN00364,BLJUN00310,PRJUN88108751,"1:1 - one payment, one credit",82579.01,82579.01,0.0,Matched,29,Payment reference match,Bank narration shows reference PRJUN88108751.
+June 2026,JUN-G0194,TXNJUN00405,BLJUN00351,PRJUN88158177,"1:1 - one payment, one credit",24773.26,24773.26,0.0,Matched,11,Payment reference match,Bank narration shows reference PRJUN88158177.
+June 2026,JUN-G0195,TXNJUN00454,BLJUN00400,PRJUN88448538,"1:1 - one payment, one credit",946.18,946.18,0.0,Matched,26,Payment reference match,Bank narration shows reference PRJUN88448538.
+June 2026,JUN-G0196,TXNJUN00370,BLJUN00316,PRJUN89682313,"1:1 - one payment, one credit",49467.34,49467.34,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN89682313.
+June 2026,JUN-G0197,TXNJUN00472,BLJUN00418,PRJUN89715138,"1:1 - one payment, one credit",62971.65,62971.65,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN89715138.
+June 2026,JUN-G0198,TXNJUN00429,BLJUN00375,PRJUN91512791,"1:1 - one payment, one credit",15135.58,15135.58,0.0,Matched,16,Payment reference match,Bank narration shows reference PRJUN91512791.
+June 2026,JUN-G0199,TXNJUN00359,BLJUN00305,PRJUN91907952,"1:1 - one payment, one credit",40818.83,40818.83,0.0,Matched,9,Payment reference match,Bank narration shows reference PRJUN91907952.
+June 2026,JUN-G0200,TXNJUN00422,BLJUN00368,PRJUN92058189,"1:1 - one payment, one credit",60856.53,60856.53,0.0,Matched,22,Payment reference match,Bank narration shows reference PRJUN92058189.
+June 2026,JUN-G0201,TXNJUN00443,BLJUN00389,PRJUN92979370,"1:1 - one payment, one credit",64757.02,64757.02,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN92979370.
+June 2026,JUN-G0202,TXNJUN00513,BLJUN00459,PRJUN92984217,"1:1 - one payment, one credit",45242.72,45242.72,0.0,Matched,13,Payment reference match,Bank narration shows reference PRJUN92984217.
+June 2026,JUN-G0203,TXNJUN00474,BLJUN00420,PRJUN93590502,"1:1 - one payment, one credit",66643.82,66643.82,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN93590502.
+June 2026,JUN-G0204,TXNJUN00332,BLJUN00278,PRJUN93890601,"1:1 - one payment, one credit",56513.16,56513.16,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN93890601.
+June 2026,JUN-G0205,TXNJUN00410,BLJUN00356,PRJUN94658420,"1:1 - one payment, one credit",75561.68,75561.68,0.0,Matched,12,Payment reference match,Bank narration shows reference PRJUN94658420.
+June 2026,JUN-G0206,TXNJUN00487,BLJUN00433,PRJUN96355513,"1:1 - one payment, one credit",48152.53,48152.53,0.0,Matched,24,Payment reference match,Bank narration shows reference PRJUN96355513.
+June 2026,JUN-G0207,TXNJUN00368,BLJUN00314,PRJUN97857309,"1:1 - one payment, one credit",23974.38,23974.38,0.0,Matched,18,Payment reference match,Bank narration shows reference PRJUN97857309.
+June 2026,JUN-G0208,TXNJUN00492,BLJUN00438,PRJUN97858385,"1:1 - one payment, one credit",43475.7,43475.7,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN97858385.
+June 2026,JUN-G0209,TXNJUN00442,BLJUN00388,PRJUN97884113,"1:1 - one payment, one credit",54449.2,54449.2,0.0,Matched,14,Payment reference match,Bank narration shows reference PRJUN97884113.
+June 2026,JUN-G0210,TXNJUN00591,BLJUN00497,PRJUN98070348,"1:1 - one payment, one credit",20755.81,20368.57,387.24,Partial Match,10,Payment reference match,Bank narration shows reference PRJUN98070348. Bank paid 387.24 less than our books.
+June 2026,JUN-G0211,TXNJUN00499,BLJUN00445,PRJUN98251083,"1:1 - one payment, one credit",57683.73,57683.73,0.0,Matched,10,Payment reference match,Bank narration shows reference PRJUN98251083.
+June 2026,JUN-G0212,TXNJUN00340,BLJUN00286,PRJUN98261798,"1:1 - one payment, one credit",33887.09,33887.09,0.0,Matched,8,Payment reference match,Bank narration shows reference PRJUN98261798.
+June 2026,JUN-G0213,TXNJUN00430,BLJUN00376,PRJUN98663948,"1:1 - one payment, one credit",28428.71,28428.71,0.0,Matched,20,Payment reference match,Bank narration shows reference PRJUN98663948.
+June 2026,JUN-G0214,TXNJUN00506,BLJUN00452,PRJUN99186817,"1:1 - one payment, one credit",88034.44,88034.44,0.0,Matched,28,Payment reference match,Bank narration shows reference PRJUN99186817.
+June 2026,JUN-G0215,TXNMAY00308,BLJUN00262,PRMAY12058055,"1:1 - one payment, one credit",89045.89,89045.89,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY12058055. Narration marks it as a previous cycle.
+June 2026,JUN-G0216,TXNMAY00314,BLJUN00268,PRMAY12176998,"1:1 - one payment, one credit",52676.27,52676.27,0.0,Matched,32,Payment reference match,Bank narration shows reference PRMAY12176998. Narration marks it as a previous cycle.
+June 2026,JUN-G0217,TXNMAY00319,BLJUN00273,PRMAY14539747,"1:1 - one payment, one credit",89806.57,89806.57,0.0,Matched,34,Payment reference match,Bank narration shows reference PRMAY14539747. Narration marks it as a previous cycle.
+June 2026,JUN-G0218,TXNMAY00299,BLJUN00253,PRMAY16292676,"1:1 - one payment, one credit",89465.31,89465.31,0.0,Matched,32,Payment reference match,Bank narration shows reference PRMAY16292676. Narration marks it as a previous cycle.
+June 2026,JUN-G0219,TXNMAY00312,BLJUN00266,PRMAY23234972,"1:1 - one payment, one credit",72414.34,72414.34,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY23234972. Narration marks it as a previous cycle.
+June 2026,JUN-G0220,TXNMAY00318,BLJUN00272,PRMAY28784915,"1:1 - one payment, one credit",17688.53,17688.53,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY28784915. Narration marks it as a previous cycle.
+June 2026,JUN-G0221,TXNMAY00302,BLJUN00256,PRMAY29374563,"1:1 - one payment, one credit",86921.73,86921.73,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY29374563. Narration marks it as a previous cycle.
+June 2026,JUN-G0222,TXNMAY00315,BLJUN00269,PRMAY30456313,"1:1 - one payment, one credit",31504.74,31504.74,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY30456313. Narration marks it as a previous cycle.
+June 2026,JUN-G0223,TXNMAY00301,BLJUN00255,PRMAY34679818,"1:1 - one payment, one credit",23081.74,23081.74,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY34679818. Narration marks it as a previous cycle.
+June 2026,JUN-G0224,TXNMAY00309,BLJUN00263,PRMAY42560305,"1:1 - one payment, one credit",37830.89,37830.89,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY42560305. Narration marks it as a previous cycle.
+June 2026,JUN-G0225,TXNMAY00316,BLJUN00270,PRMAY42981324,"1:1 - one payment, one credit",52423.38,52423.38,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY42981324. Narration marks it as a previous cycle.
+June 2026,JUN-G0226,TXNMAY00311,BLJUN00265,PRMAY45106207,"1:1 - one payment, one credit",48839.37,48839.37,0.0,Matched,32,Payment reference match,Bank narration shows reference PRMAY45106207. Narration marks it as a previous cycle.
+June 2026,JUN-G0227,TXNMAY00300,BLJUN00254,PRMAY52779814,"1:1 - one payment, one credit",38932.56,38932.56,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY52779814. Narration marks it as a previous cycle.
+June 2026,JUN-G0228,TXNMAY00310,BLJUN00264,PRMAY53166435,"1:1 - one payment, one credit",36317.7,36317.7,0.0,Matched,32,Payment reference match,Bank narration shows reference PRMAY53166435. Narration marks it as a previous cycle.
+June 2026,JUN-G0229,TXNMAY00304,BLJUN00258,PRMAY54327148,"1:1 - one payment, one credit",87630.92,87630.92,0.0,Matched,34,Payment reference match,Bank narration shows reference PRMAY54327148. Narration marks it as a previous cycle.
+June 2026,JUN-G0230,TXNMAY00313,BLJUN00267,PRMAY59755172,"1:1 - one payment, one credit",39469.88,39469.88,0.0,Matched,32,Payment reference match,Bank narration shows reference PRMAY59755172. Narration marks it as a previous cycle.
+June 2026,JUN-G0231,TXNMAY00320,BLJUN00274,PRMAY65350347,"1:1 - one payment, one credit",80081.11,80081.11,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY65350347. Narration marks it as a previous cycle.
+June 2026,JUN-G0232,TXNMAY00317,BLJUN00271,PRMAY75581613,"1:1 - one payment, one credit",43913.55,43913.55,0.0,Matched,31,Payment reference match,Bank narration shows reference PRMAY75581613. Narration marks it as a previous cycle.
+June 2026,JUN-G0233,TXNMAY00305,BLJUN00259,PRMAY81891784,"1:1 - one payment, one credit",5133.1,5133.1,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY81891784. Narration marks it as a previous cycle.
+June 2026,JUN-G0234,TXNMAY00303,BLJUN00257,PRMAY84797762,"1:1 - one payment, one credit",37052.7,37052.7,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY84797762. Narration marks it as a previous cycle.
+June 2026,JUN-G0235,TXNMAY00307,BLJUN00261,PRMAY85007641,"1:1 - one payment, one credit",45672.6,45672.6,0.0,Matched,33,Payment reference match,Bank narration shows reference PRMAY85007641. Narration marks it as a previous cycle.
+June 2026,JUN-G0236,TXNMAY00306,BLJUN00260,PRMAY90922827,"1:1 - one payment, one credit",83025.54,83025.54,0.0,Matched,34,Payment reference match,Bank narration shows reference PRMAY90922827. Narration marks it as a previous cycle.
+June 2026,JUN-G0237,"TXNJUN00575,TXNJUN00576,TXNJUN00577,TXNJUN00578,TXNJUN00579",BLJUN00486,"PRJUN15830187,PRJUN74709513,PRJUN82381739,PRJUN97138408,PRJUN98502178","N:1 - many payments, one credit",55880.5,55880.5,0.0,Matched,24,Net settlement sweep,Bank rolled 5 payments for merchant M1031 dated 2026-06-06 into 1 credit(s).
+June 2026,JUN-G0238,"TXNJUN00570,TXNJUN00571,TXNJUN00572,TXNJUN00573,TXNJUN00574","BLJUN00484,BLJUN00485","PRJUN32893086,PRJUN34412077,PRJUN55992559,PRJUN61735818,PRJUN90643207","N:M - many payments, many credits",81175.76,81175.76,0.0,Matched,11,Net settlement sweep,Bank rolled 5 payments for merchant M1014 dated 2026-06-19 into 2 credit(s).
+June 2026,JUN-G0239,TXNJUN00593,,PRJUN42112480,1:0 - payment with no credit,92692.45,0.0,92692.45,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0240,TXNJUN00594,,PRJUN63611082,1:0 - payment with no credit,63700.48,0.0,63700.48,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0241,TXNJUN00595,,PRJUN36885204,1:0 - payment with no credit,70073.69,0.0,70073.69,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0242,TXNJUN00596,,PRJUN83765077,1:0 - payment with no credit,69051.64,0.0,69051.64,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0243,TXNJUN00597,,PRJUN47112255,1:0 - payment with no credit,57702.93,0.0,57702.93,Open,2,No match found,No bank credit found for this payment.
+June 2026,JUN-G0244,TXNJUN00598,,PRJUN64218119,1:0 - payment with no credit,24989.94,0.0,24989.94,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0245,TXNJUN00599,,PRJUN24289484,1:0 - payment with no credit,47925.28,0.0,47925.28,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0246,TXNJUN00600,,PRJUN78892172,1:0 - payment with no credit,83261.71,0.0,83261.71,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0247,TXNJUN00601,,PRJUN60610858,1:0 - payment with no credit,73204.39,0.0,73204.39,Open,0,No match found,No bank credit found for this payment.
+June 2026,JUN-G0248,TXNJUN00602,,PRJUN71836850,1:0 - payment with no credit,45916.67,0.0,45916.67,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0249,TXNJUN00603,,PRJUN61361533,1:0 - payment with no credit,64387.5,0.0,64387.5,Open,2,No match found,No bank credit found for this payment.
+June 2026,JUN-G0250,TXNJUN00604,,PRJUN65354876,1:0 - payment with no credit,49188.77,0.0,49188.77,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0251,TXNJUN00605,,PRJUN43320572,1:0 - payment with no credit,9062.64,0.0,9062.64,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0252,TXNJUN00606,,PRJUN84430642,1:0 - payment with no credit,45403.63,0.0,45403.63,Open,2,No match found,No bank credit found for this payment.
+June 2026,JUN-G0253,TXNJUN00607,,PRJUN87002404,1:0 - payment with no credit,17568.83,0.0,17568.83,Open,1,No match found,No bank credit found for this payment.
+June 2026,JUN-G0254,TXNJUN00608,,PRJUN36798789,1:0 - payment with no credit,69931.9,0.0,69931.9,Open,2,No match found,No bank credit found for this payment.
+June 2026,JUN-G0255,TXNJUN00609,,PRJUN40763714,1:0 - payment with no credit,79360.61,0.0,79360.61,Open,2,No match found,No bank credit found for this payment.
+June 2026,JUN-G0256,TXNJUN00610,,PRJUN24319594,1:0 - payment with no credit,87437.83,0.0,87437.83,Open,3,No match found,No bank credit found for this payment.
+June 2026,JUN-G0257,TXNJUN00611,,PRJUN10889014,1:0 - payment with no credit,81459.21,0.0,81459.21,Open,16,No match found,No bank credit found for this payment.
+June 2026,JUN-G0258,TXNJUN00612,,PRJUN59821155,1:0 - payment with no credit,30135.75,0.0,30135.75,Open,19,No match found,No bank credit found for this payment.
+June 2026,JUN-G0259,TXNJUN00613,,PRJUN34544645,1:0 - payment with no credit,87041.65,0.0,87041.65,Open,16,No match found,No bank credit found for this payment.
+June 2026,JUN-G0260,TXNJUN00614,,PRJUN39808788,1:0 - payment with no credit,54889.03,0.0,54889.03,Open,16,No match found,No bank credit found for this payment.
+June 2026,JUN-G0261,TXNJUN00615,,PRJUN66797703,1:0 - payment with no credit,89282.26,0.0,89282.26,Open,21,No match found,No bank credit found for this payment.
+June 2026,JUN-G0262,TXNJUN00616,,PRJUN56612335,1:0 - payment with no credit,81772.91,0.0,81772.91,Open,22,No match found,No bank credit found for this payment.
+June 2026,JUN-G0263,TXNMAY00321,,PRMAY30270856,1:0 - payment with no credit,20973.69,0.0,20973.69,Open,59,No match found,No bank credit found for this payment.
+June 2026,JUN-G0264,TXNMAY00322,,PRMAY18113477,1:0 - payment with no credit,60674.78,0.0,60674.78,Open,50,No match found,No bank credit found for this payment.
+June 2026,JUN-G0265,TXNMAY00323,,PRMAY12111482,1:0 - payment with no credit,50677.13,0.0,50677.13,Open,59,No match found,No bank credit found for this payment.
+June 2026,JUN-G0266,TXNMAY00324,,PRMAY12244945,1:0 - payment with no credit,68677.76,0.0,68677.76,Open,51,No match found,No bank credit found for this payment.
+June 2026,JUN-G0267,TXNMAY00325,,PRMAY77406294,1:0 - payment with no credit,66372.15,0.0,66372.15,Open,46,No match found,No bank credit found for this payment.
+June 2026,JUN-G0268,TXNMAY00326,,PRMAY24363501,1:0 - payment with no credit,49935.52,0.0,49935.52,Open,58,No match found,No bank credit found for this payment.
+June 2026,JUN-G0269,TXNMAY00327,,PRMAY93185576,1:0 - payment with no credit,24166.62,0.0,24166.62,Open,51,No match found,No bank credit found for this payment.
+June 2026,JUN-G0270,TXNMAY00328,,PRMAY63270536,1:0 - payment with no credit,35596.64,0.0,35596.64,Open,58,No match found,No bank credit found for this payment.
+June 2026,JUN-G0271,,BLJUN00499,,0:1 - credit with no payment,0.0,66408.67,-66408.67,Exception,22,No match found,This credit does not match any payment in our books.
+June 2026,JUN-G0272,,BLJUN00500,,0:1 - credit with no payment,0.0,36200.8,-36200.8,Exception,19,No match found,This credit does not match any payment in our books.
+June 2026,JUN-G0273,,BLJUN00501,,0:1 - credit with no payment,0.0,81909.53,-81909.53,Exception,6,No match found,This credit does not match any payment in our books.
+June 2026,JUN-G0274,,BLJUN00502,,0:1 - credit with no payment,0.0,25776.43,-25776.43,Exception,18,No match found,This credit does not match any payment in our books.
