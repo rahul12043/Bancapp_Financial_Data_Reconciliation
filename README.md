@@ -190,11 +190,11 @@ Exceptions across both months:
 
 | Problem | Items | Value | What to do |
 | --- | ---: | ---: | --- |
-| Never settled | 22 | ₹11,78,729 | Chase the acquirer. This payment is overdue. |
-| Bank paid twice | 11 | ₹4,96,223 | Ask the bank to take the extra credit back. |
-| Credit we cannot place | 9 | ₹4,22,677 | Ask the bank whose money this is. |
-| Cancels out in our books | 7 | ₹2,54,224 | No action needed. Keep for the audit trail. |
-| Bank paid less | 5 | ₹1,11,106 | Recover the shortfall. It is usually a bank fee. |
+| Unsettled transaction | 22 | ₹11,78,729 | Chase the acquirer. This payment is overdue. |
+| Duplicate credit | 11 | ₹4,96,223 | Ask the bank to take the extra credit back. |
+| Orphan credit | 9 | ₹4,22,677 | Ask the bank whose money this is. |
+| Internal self-netting pair | 7 | ₹2,54,224 | No action needed. Keep for the audit trail. |
+| Short settlement | 5 | ₹1,11,106 | Recover the shortfall. It is usually a bank fee. |
 
 The short settlements are worth a second look. Five groups worth ₹1,11,106 came up short by a
 combined ₹1,608 — under 1% each. That is what an undeclared bank fee looks like. We deliberately do
